@@ -79,6 +79,17 @@ function alignmentToWords(alignment) {
   return words;
 }
 
+// ติด emphasis: true บนคำที่ตรงกับ scene.emphasis_words (ไว้ทำไฮไลต์สีแดงถาวรใน caption) —
+// จับคู่แบบ case-insensitive ทิ้งเครื่องหมายวรรคตอนท้ายคำก่อนเทียบ (เช่น "danger…" ตรงกับ "danger")
+export function annotateEmphasis(words, emphasisWords = []) {
+  if (!emphasisWords.length) return words;
+  const targets = new Set(emphasisWords.map((w) => w.toLowerCase()));
+  return words.map((w) => {
+    const clean = w.word.toLowerCase().replace(/[.,!?;:"'…()]/g, "");
+    return targets.has(clean) ? { ...w, emphasis: true } : w;
+  });
+}
+
 // เสียงพากย์ต่อ scene พร้อม word-level timestamp (ไว้ทำ caption ที่ sync เป๊ะ)
 export async function generateNarration(videoId, scene, voiceId = ELEVENLABS_VOICE_ID) {
   if (!scene.narration) return null;
@@ -95,7 +106,7 @@ export async function generateNarration(videoId, scene, voiceId = ELEVENLABS_VOI
   if (!res.ok) throw new Error(`ElevenLabs TTS ${res.status}: ${await res.text()}`);
   const data = await res.json();
   await writeFile(outAudio, Buffer.from(data.audio_base64, "base64"));
-  const words = alignmentToWords(data.alignment);
+  const words = annotateEmphasis(alignmentToWords(data.alignment), scene.emphasis_words ?? []);
   await writeFile(outWords, JSON.stringify(words, null, 2));
   const duration = words.length ? words[words.length - 1].end : 0;
   const overflow = duration > (scene.duration_sec ?? Infinity);

@@ -1,5 +1,5 @@
 import { Composition } from "remotion";
-import { VideoComposition, type ShotList } from "./VideoComposition";
+import { VideoComposition, type ShotList, totalDurationSec } from "./VideoComposition";
 
 const FPS = 30;
 
@@ -23,9 +23,11 @@ export const RemotionRoot: React.FC = () => {
       width={1080}
       height={1920}
       defaultProps={defaultProps}
-      // คำนวณความยาว/ขนาดจาก shot list ที่ส่งเข้ามาจริง
+      // คำนวณความยาว/ขนาดจาก shot list ที่ส่งเข้ามาจริง — ใช้ totalDurationSec (นับรวม scene ที่ยืด
+      // ออกเพราะเสียงพากย์ยาวกว่าคลิป) ไม่ใช่ props.total_duration_sec ตรงๆ เพราะเป็นค่า nominal คงที่
+      // ที่ไม่รู้เรื่องการยืด scene เลย — ใช้ตรงๆ จะทำให้ท้าย scene ที่ยืดออกโดนตัดทิ้งเงียบๆ
       calculateMetadata={({ props }) => ({
-        durationInFrames: Math.round(props.total_duration_sec * FPS),
+        durationInFrames: Math.round(totalDurationSec(props.scenes) * FPS),
         fps: FPS,
         width: 1080,
         height: 1920,
