@@ -1,5 +1,6 @@
 // ประกอบวิดีโอสุดท้ายด้วย Remotion (รันหลังผ่าน checkpoint approve แล้วเท่านั้น)
-// วิธีใช้: node scripts/render.mjs shot-lists/<file>.json
+// วิธีใช้: node scripts/render.mjs shot-lists/<file>.json [outputName]
+// outputName เอาไว้ render พรีวิวสั้นๆ (เช่น shot list ที่กรองเหลือ scene เดียว) โดยไม่ทับ final.mp4
 import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { readFile, mkdir, rm, cp } from "node:fs/promises";
@@ -19,8 +20,9 @@ async function attachWordTimestamps(shotList, publicDir) {
 }
 
 const file = process.argv[2];
+const outputName = process.argv[3] ?? "final.mp4";
 if (!file) {
-  console.error("ใช้: node scripts/render.mjs shot-lists/<file>.json");
+  console.error("ใช้: node scripts/render.mjs shot-lists/<file>.json [outputName]");
   process.exit(1);
 }
 
@@ -52,7 +54,7 @@ const composition = await selectComposition({
   inputProps: shotList,
 });
 
-const outPath = join(videoDir, "final.mp4");
+const outPath = join(videoDir, outputName);
 console.log(`rendering → ${outPath}`);
 await renderMedia({
   composition,

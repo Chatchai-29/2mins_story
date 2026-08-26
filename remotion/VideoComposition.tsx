@@ -114,9 +114,9 @@ const Captions: React.FC<{ words?: Word[] }> = ({ words }) => {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
-          gap: "0 16px",
+          gap: "0 19px",
           maxWidth: "88%",
-          marginBottom: 213,
+          marginBottom: 266,
         }}
       >
         {chunk.map((w, i) => {
@@ -137,7 +137,7 @@ const Captions: React.FC<{ words?: Word[] }> = ({ words }) => {
                 fontWeight: 900,
                 fontSize: 80,
                 color,
-                WebkitTextStroke: "3px black",
+                WebkitTextStroke: "4px black",
                 textShadow: "0 4px 10px rgba(0,0,0,0.65)",
                 transform: `scale(${pop})`,
                 lineHeight: 1.15,
