@@ -1,0 +1,31 @@
+{
+  "video_id": "reveal-grape-001",
+  "title": "ห้องนอนในฝันธีมองุ่นม่วง (reveal)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 10,
+  "background_music": "dreamy magical cinematic ambient, soft and enchanting, moonlit and mystical, purple fairytale mood, no vocals, gentle build",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 5,
+      "start_image": "grape-start.png",
+      "end_image": "grape-mid.png",
+      "motion_prompt": "A dreamy fantasy transformation reveal. The glowing archway of luminous grapevines and giant translucent purple grapes ripples and bursts with soft violet light and floating sparkles as it becomes a portal. The camera smoothly pushes forward, following the woman from behind as she steps through, and the scene seamlessly transitions into an enchanting moonlit purple bedroom by a large arched window. Grapevines and clusters gently sway, fireflies and sparkles drift through the air, sheer lavender curtains billow softly, magical violet glow. Continuous forward camera motion, ethereal and dreamlike, smooth morph, one consistent character, no glitches, no extra limbs.",
+      "sfx_prompt": "soft magical shimmer and gentle whoosh as the portal opens, light chimes, faint night breeze",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 5,
+      "start_image": "grape-mid.png",
+      "end_image": "grape-end.png",
+      "motion_prompt": "The woman gently settles and reclines onto the plush purple bed to rest beside the large arched window, under a glowing full moon and starry sky. Hanging wisteria and grape clusters sway softly, sheer lavender curtains drift in the night breeze, fireflies and sparkles float through the air, soft moonlight shimmers across the silk bedding. Slow gentle camera movement with subtle parallax, calm dreamy magical atmosphere, one consistent character, smooth natural motion, no glitches.",
+      "sfx_prompt": "calm night ambience, gentle breeze, soft rustle of fabric, faint magical shimmer",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    }
+  ]
+}

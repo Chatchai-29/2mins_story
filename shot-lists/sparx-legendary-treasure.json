@@ -1,0 +1,94 @@
+{
+  "video_id": "sparx-legendary-treasure",
+  "title": "Sparx and the Legendary Treasure",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 79,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "start_image": "map-scene-1-start.png",
+      "end_image": "map-scene-1.png",
+      "motion_prompt": "The cute baby dragon Sparx lies lazily on the ground looking bored, sighing and idly shifting his tail with nothing to do. After a moment, an old rolled-up treasure map drifts gently in from the side through the air and lands softly on the ground right in front of him. His half-closed eyes suddenly widen with interest, ears and head spikes perking up as he lifts his head slightly to look at the map. Plain white background, smooth natural motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 2,
+      "duration_sec": 9,
+      "start_image": "map-scene-1.png",
+      "end_image": "map-scene-2.png",
+      "motion_prompt": "The same baby dragon Sparx keeps looking at the map with growing interest, then his eyes suddenly light up and sparkle with excitement. A glowing daydream bubble slowly forms and rises above his head, gently pulsing and shimmering. Inside it, his imagined proud self appears standing on a golden treasure pile, chest puffed with pride, sparkles drifting softly around the bubble. Plain white background, smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 3,
+      "duration_sec": 6,
+      "source_image": "map-scene-3.png",
+      "motion_prompt": "The same baby dragon Sparx trudges forward through the forest looking exhausted, dragging his feet, tail scraping the leafy ground kicking up small leaves and dust. He yawns widely, holding the treasure map in one hand. Leaves and foliage rustle gently in the background breeze. Consistent character design, no glitches.",
+      "cfg_scale": 0.45
+    },
+    {
+      "scene": 4,
+      "duration_sec": 6,
+      "source_image": "map-scene-4.png",
+      "motion_prompt": "The same baby dragon Sparx stands at the base of a huge mountain, tilting his head back to look all the way up at it, then glances down at his own small wings, considering. He has only a single curled horn on his head, with no other horn anywhere. A light dust drifts down the rocky cliff face. Subtle natural idle motion, plain white sky, no glitches, consistent character design.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, two horns, twin horns, second horn, extra horn, symmetrical horns, matching horns, pair of horns",
+      "cfg_scale": 0.65
+    },
+    {
+      "scene": 5,
+      "duration_sec": 6,
+      "source_image": "map-scene-5.png",
+      "motion_prompt": "The same baby dragon Sparx flaps his wings rapidly and lifts a few inches straight up off the ground, hovering unsteadily and wobbling side to side while staying upright, his tiny spark trailing beneath him. After a moment his wings falter and he sinks straight back down, landing with a small stumble and a puff of dust at his feet. He stays upright and forward-facing throughout, never rotating or flipping. Plain white background, no glitches, consistent character design.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, spinning, tumbling, rolling, rotating body, somersault, flipping upside down",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 6,
+      "duration_sec": 6,
+      "source_image": "map-scene-6.png",
+      "motion_prompt": "The same baby dragon Sparx climbs the last stone steps toward a giant ancient cave entrance, looking up in awe at the glowing carved dragon emblem above the doorway, which flickers gently with a warm inner light. Fine dust motes drift slowly through the still mountain air. Subtle natural motion, no glitches, consistent character design.",
+      "cfg_scale": 0.45
+    },
+    {
+      "scene": 7,
+      "duration_sec": 7,
+      "start_image": "map-scene-7.png",
+      "end_image": "map-scene-8.png",
+      "motion_prompt": "The same baby dragon Sparx inhales and blasts a small burst of golden spark at the ancient mossy stone door, but the door does not budge. Undeterred, he straightens up into a bigger dramatic stance, chest puffed out and arms spread wide, and unleashes a stronger focused beam of glowing golden sparkle at the carved stone. Tiny embers and dust scatter and drift down from the impact. Smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 8,
+      "duration_sec": 6,
+      "start_image": "map-scene-8.png",
+      "end_image": "map-scene-9.png",
+      "motion_prompt": "The same baby dragon Sparx's dramatic golden blast fizzles into a few last embers that drift down and land harmlessly on the ground. He slowly lowers his stance, his eyes going wide with disbelief and his mouth falling open in a stunned gasp as he stares at the completely unmoved door. Smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 9,
+      "duration_sec": 7,
+      "start_image": "map-scene-9.png",
+      "end_image": "map-scene-10.png",
+      "motion_prompt": "The same baby dragon Sparx, still in disbelief, slumps down and sits against the stone wall, arms crossed and pouting. As he settles, his body accidentally presses against a hidden mechanism in the wall. The ancient door beside him suddenly creaks open, releasing a soft beam of light and drifting dust motes. His eyes widen in surprise as the light spills over him. Smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 10,
+      "duration_sec": 9,
+      "start_image": "map-scene-10.png",
+      "end_image": "map-scene-11.png",
+      "motion_prompt": "The same baby dragon Sparx gets up and steps forward through the now-open ancient doorway. As he walks through, the dark passage opens up around him, revealing an enormous treasure chamber filled with mountains of gold coins and glowing gemstones. His eyes go wide and sparkle with wonder at the sight. Camera follows him gently forward through the doorway into the chamber, smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 11,
+      "duration_sec": 7,
+      "start_image": "map-scene-11.png",
+      "end_image": "map-scene-12.png",
+      "motion_prompt": "The same baby dragon Sparx wanders through the glittering treasure, gently reaching a hand toward the gold before losing interest and spotting a ridiculously soft luxury pillow sitting on top of the pile. He walks over, climbs onto it, curls up, and slowly closes his eyes with a small contented sigh, breathing gently as he drifts off to sleep. Calm gentle motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    }
+  ]
+}

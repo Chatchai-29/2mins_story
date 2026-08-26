@@ -1,0 +1,29 @@
+{
+  "video_id": "beds-by-zodiac-001",
+  "title": "เตียงในฝันตามราศีของคุณ",
+  "total_duration_sec": 60,
+  "aspect_ratio": "9:16",
+  "background_music": "เพลงบรรเลง lo-fi อบอุ่นผ่อนคลาย โทนอบอุ่น ไม่มีเสียงร้อง จังหวะช้า เหมาะกับห้องนอนยามค่ำ",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 5,
+      "source_image": "aries-bed.png",
+      "motion_prompt": "กล้องแพนช้าๆ จากซ้ายไปขวาผ่านห้องนอนโทนแดงอบอุ่น แสงนุ่ม ผ้าม่านไหวเบาๆ",
+      "sfx_prompt": "เสียงผ้าม่านไหวเบาๆ กับลมอ่อนๆ ในห้อง",
+      "model": "kling-3.0-pro",
+      "camera": "pan-right",
+      "transition_out": "crossfade"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 5,
+      "source_image": "taurus-bed.png",
+      "motion_prompt": "ซูมเข้าช้าๆ สู่เตียงไม้โทนเขียวธรรมชาติ ต้นไม้ในห้องไหวเบาๆ แสงเช้า",
+      "sfx_prompt": "เสียงใบไม้ไหวเบาๆ บรรยากาศเช้าเงียบสงบ",
+      "model": "kling-3.0-pro",
+      "camera": "zoom-in",
+      "transition_out": "crossfade"
+    }
+  ]
+}

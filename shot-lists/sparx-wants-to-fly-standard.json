@@ -1,0 +1,69 @@
+{
+  "video_id": "sparx-wants-to-fly-standard",
+  "title": "Sparx Wants to Fly (Standard+upscale)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 60,
+  "background_music": "playful whimsical cute cinematic, light comedic, no vocals, gentle build",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "start_image": "sparx-start.png",
+      "end_image": "sparx-mid.png",
+      "motion_prompt": "A cute 3D claymation-style baby dragon named Sparx, orange and gold, sits on a rocky mossy cliff resting his chin on his paw looking bored, a tiny spark puffs from his mouth. He slowly looks up and notices three dragons flying across the sky in the distance, his expression shifting to wistful longing as he watches them soar by. Plain white background, character-focused, subtle natural idle motion, smooth animation, no glitches, no extra limbs, consistent character design.",
+      "sfx_prompt": "a cute tiny high-pitched dragon squeak chirp, a small crackling spark puff, soft ambient breeze",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 10,
+      "start_image": "sparx-mid.png",
+      "end_image": "sparx-mid2.png",
+      "motion_prompt": "The same cute baby dragon Sparx stands up from the cliff, closes his eyes, and stretches both wings out wide with a determined little yawn, preparing himself. Plain white background, character-focused, smooth natural motion, no glitches, no extra limbs, consistent character design.",
+      "sfx_prompt": "a cute tiny high-pitched dragon squeak stretch, a small determined squeaky huff",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    },
+    {
+      "scene": 3,
+      "duration_sec": 10,
+      "start_image": "sparx-mid2.png",
+      "end_image": "sparx-mid3.png",
+      "motion_prompt": "The same baby dragon Sparx flaps his wings hard and lifts into the air, straining with effort, eyes wide and sweat drops flying, wings flapping frantically to stay aloft. Plain white background, character-focused, dynamic energetic motion, no glitches, no extra limbs, consistent character design.",
+      "sfx_prompt": "fast fluttering tiny wing flaps, cute tiny high-pitched dragon squeaky nervous grunts",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    },
+    {
+      "scene": 4,
+      "duration_sec": 10,
+      "start_image": "sparx-mid3.png",
+      "end_image": "sparx-mid4.png",
+      "motion_prompt": "The same baby dragon Sparx loses control and tumbles out of the air, flailing his arms and legs with a surprised yelp, crash-landing on the ground with little dust puffs kicking up around his feet. Plain white background, character-focused, comedic dynamic motion, the dragon's full body stays intact and correctly proportioned at all times with both wings, both arms, both legs, head and snout clearly visible, no glitches, no missing limbs, no extra limbs, no melting or deformed anatomy, consistent character design.",
+      "sfx_prompt": "a comedic falling whoosh, a cute tiny high-pitched dragon squeaky yelp, a soft thud, a puff of dust",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    },
+    {
+      "scene": 5,
+      "duration_sec": 10,
+      "start_image": "sparx-mid4.png",
+      "end_image": "sparx-mid5.png",
+      "motion_prompt": "The same baby dragon Sparx gets up, brushes himself off, and casually walks away in profile with one eye closed, completely unbothered, as if nothing happened. Plain white background, character-focused, smooth relaxed walking motion, no glitches, no extra limbs, consistent character design.",
+      "sfx_prompt": "light casual little footsteps, a cute tiny high-pitched dragon nonchalant squeaky huff",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    },
+    {
+      "scene": 6,
+      "duration_sec": 10,
+      "start_image": "sparx-mid5.png",
+      "end_image": "sparx-end.png",
+      "motion_prompt": "The same baby dragon Sparx curls up and lies down, closing his eyes and falling asleep peacefully, a tiny spark of light glowing near his mouth and small ZZZ symbols appearing above his head. Plain white background, character-focused, calm gentle motion, no glitches, no extra limbs, consistent character design.",
+      "sfx_prompt": "a cute tiny high-pitched contented dragon squeaky sigh, gentle sleepy breathing, a faint magical chime",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    }
+  ]
+}

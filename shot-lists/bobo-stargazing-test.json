@@ -1,0 +1,16 @@
+{
+  "video_id": "bobo-stargazing-test",
+  "title": "Bobo stargazing (test)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "source_image": "bobo-stargazing.png",
+      "motion_prompt": "The same 2D illustrated character Bobo sits wrapped snugly in his blanket on the balcony, slowly lifting the warm mug to take a small sip, then holding it in both hands again. Steam gently rises from the mug. A new shooting star streaks softly across the night sky and he tilts his head slightly to follow it, eyes calm and half-lidded, a small peaceful huff escaping him, almost a tiny smile. The string lights flicker gently and sway in a light breeze, the lantern flame flickers warmly. Cozy, quiet, healing late-night mood, slow gentle motion, no glitches, consistent character and art style.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, 3D render, photorealistic, style change, different art style, fast motion, comedic exaggeration",
+      "cfg_scale": 0.4
+    }
+  ]
+}

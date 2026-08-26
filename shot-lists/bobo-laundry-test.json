@@ -1,0 +1,16 @@
+{
+  "video_id": "bobo-laundry-test",
+  "title": "Bobo laundry sock gag (test)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "source_image": "bobo-laundry.png",
+      "motion_prompt": "The same 2D illustrated character Bobo pulls a dark shirt out of the laundry basket and holds it up to inspect it with a bored, deadpan expression. As he shakes it out, a loose sock flies out from inside the shirt and lands right on top of his head, flopping over one eye. He stays completely still for a moment, deadpan and unbothered with the sock still on his head, then casually reaches up and flicks it off, tossing it back into the basket without changing expression. Cozy relatable comedic energy, smooth continuous motion, no glitches, consistent character and art style.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, 3D render, photorealistic, style change, different art style, extra limbs, disappearing objects, warped body",
+      "cfg_scale": 0.5
+    }
+  ]
+}

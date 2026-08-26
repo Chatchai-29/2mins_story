@@ -1,0 +1,19 @@
+{
+  "video_id": "reveal-leo-001",
+  "title": "ห้องในฝันของราศีสิงห์ (reveal)",
+  "aspect_ratio": "9:16",
+  "background_music": "epic yet dreamy cinematic ambient, magical shimmer, warm and luxurious, no vocals, builds gently to the reveal",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "start_image": "leo-start.png",
+      "end_image": "leo-end.png",
+      "motion_prompt": "A cinematic transformation reveal. The woman stands before an ornate golden portal / giant glowing lion emblem; the portal splits open with a burst of warm golden light and drifting sparkles. The camera smoothly follows her from behind as she walks forward through the opening, and the scene seamlessly transitions into a luxurious orange-and-gold Leo bedroom. Flowing curtains billow, warm light rays and golden dust particles fill the air, water or fabric shimmers. Continuous forward camera motion, magical and elegant. One consistent character, smooth morph, no glitches, no extra limbs.",
+      "sfx_prompt": "magical whoosh as the portal opens, soft sparkle shimmer, gentle wind, then calm warm room ambience",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    }
+  ]
+}

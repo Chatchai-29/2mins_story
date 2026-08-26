@@ -1,0 +1,70 @@
+{
+  "video_id": "zodiac-bedrooms-001",
+  "title": "ห้องนอนในฝันตามราศีของคุณ",
+  "total_duration_sec": 30,
+  "aspect_ratio": "9:16",
+  "background_music": "เพลงบรรเลงผ่อนคลายอบอุ่น โทน ambient/lo-fi นุ่มนวล ไม่มีเสียงร้อง จังหวะช้า ให้ความรู้สึกหรูหราสงบเหมือนห้องนอนยามค่ำ",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 5,
+      "source_image": "leo-orange-gold.png",
+      "motion_prompt": "Cinemagraph of an opulent Leo-themed bedroom, richly alive with continuous motion. The orange velvet canopy drapes and the sheer curtains billow and ripple noticeably in a flowing breeze. Warm afternoon sunlight pours through the window as soft volumetric god-rays. Golden dust particles and glowing bokeh sparkles drift and float slowly through the air, catching the light. A thin wisp of aromatic incense smoke curls and rises gently from the nightstand. The warm wall lamp flickers softly, its light dancing across the velvet bedspread and gold accents. The camera performs a very slow, subtle dolly with gentle parallax for depth, not a zoom. Luxurious, warm, magical yet calm atmosphere. No people in frame.",
+      "sfx_prompt": "เสียงผ้าไหวเบาๆ กับบรรยากาศห้องเงียบอบอุ่น",
+      "model": "kling-3.0-pro",
+      "camera": "dolly-parallax",
+      "cfg_scale": 0.4,
+      "transition_out": "crossfade"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 5,
+      "source_image": "taurus-green-bull.png",
+      "motion_prompt": "กล้องแพนช้าๆ จากซ้ายไปขวา ใบไม้ของต้นไม้เขียวไหวเบาๆ แสงเช้าอบอุ่นลอดผ่านม่าน ผ้าปูกำมะหยี่เขียวเป็นประกายนุ่ม ไม่มีคนในเฟรม",
+      "sfx_prompt": "เสียงใบไม้ไหวเบาๆ บรรยากาศเช้าเงียบสงบ",
+      "model": "kling-3.0-pro",
+      "camera": "pan-right",
+      "transition_out": "crossfade"
+    },
+    {
+      "scene": 3,
+      "duration_sec": 5,
+      "source_image": "aries-red-ram.png",
+      "motion_prompt": "กล้องดันเข้าช้าๆ ม่านโปร่งริมหน้าต่างพลิ้วเบาๆ แสงไฟสีแดงบนฝ้าเรืองนุ่มไล่ระดับ บรรยากาศดราม่าหรูหรา ไม่มีคนในเฟรม",
+      "sfx_prompt": "เสียงลมอ่อนกับบรรยากาศห้องเงียบ ทุ้มลึกเล็กน้อย",
+      "model": "kling-3.0-pro",
+      "camera": "push-in",
+      "transition_out": "crossfade"
+    },
+    {
+      "scene": 4,
+      "duration_sec": 5,
+      "source_image": "cancer-white-moon.png",
+      "motion_prompt": "กล้องซูมเข้าช้ามากสู่ภาพพระจันทร์บนผนัง ม่านโปร่งไหวเอื่อยๆ แสงนวลอบอุ่น บรรยากาศสงบละมุน ไม่มีคนในเฟรม",
+      "sfx_prompt": "เสียงบรรยากาศค่ำคืนเงียบสงบ ลมแผ่วเบา",
+      "model": "kling-3.0-pro",
+      "camera": "zoom-in",
+      "transition_out": "crossfade"
+    },
+    {
+      "scene": 5,
+      "duration_sec": 5,
+      "source_image": "gemini-yellow-mirror.png",
+      "motion_prompt": "กล้องแพนช้าๆ แสงแดดอ่อนลอดผ่านม่านโปร่งเคลื่อนไหวนุ่มนวล เงาแสงบนผนังเหลืองขยับช้าๆ บรรยากาศสว่างโปร่งสดใส ไม่มีคนในเฟรม",
+      "sfx_prompt": "เสียงบรรยากาศเช้าสดใส นกไกลๆ แผ่วเบา",
+      "model": "kling-3.0-pro",
+      "camera": "pan-left",
+      "transition_out": "crossfade"
+    },
+    {
+      "scene": 6,
+      "duration_sec": 5,
+      "source_image": "virgo-sage-botanical.png",
+      "motion_prompt": "กล้องดันเข้าช้าๆ ต้นไม้ห้อยและหญ้าพัมพาสไหวเบาๆ ม่านโปร่งพลิ้ว แสงธรรมชาตินุ่ม โทนเขียวเสจสงบเป็นธรรมชาติ ไม่มีคนในเฟรม",
+      "sfx_prompt": "เสียงใบไม้และหญ้าไหวเบาๆ บรรยากาศธรรมชาติผ่อนคลาย",
+      "model": "kling-3.0-pro",
+      "camera": "push-in",
+      "transition_out": "crossfade"
+    }
+  ]
+}

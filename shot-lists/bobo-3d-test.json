@@ -1,0 +1,16 @@
+{
+  "video_id": "bobo-3d-test",
+  "title": "Bobo eating ramen 3D style (test)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "source_image": "bobo-1-3d.png",
+      "motion_prompt": "The same 3D-rendered character Bobo, wearing large over-ear headphones, sits slouched in a gaming chair at his desk late at night, picking up spicy noodles with chopsticks from the ramen cup and taking a slow bite, chewing with a tired, unimpressed expression. Steam gently rises from the ramen cup. His bunny-like ears twitch slightly. The desk lamp glow flickers subtly, the lightbox sign and computer monitor's light flicker faintly, and the city lights outside the window twinkle softly. Cozy late-night ambience, smooth natural idle motion, no glitches, consistent character and art style.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, 2D, flat illustration, cartoon outline, hand-drawn, style change, different art style",
+      "cfg_scale": 0.45
+    }
+  ]
+}

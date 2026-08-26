@@ -1,0 +1,18 @@
+{
+  "video_id": "sparx-standard-test",
+  "title": "Sparx — Kling Standard vs Pro test",
+  "aspect_ratio": "9:16",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "start_image": "sparx-start.png",
+      "end_image": "sparx-mid.png",
+      "motion_prompt": "A cute 3D claymation-style baby dragon named Sparx, orange and gold, sits on a rocky mossy cliff resting his chin on his paw looking bored, a tiny spark puffs from his mouth. He slowly looks up and notices three dragons flying across the sky in the distance, his expression shifting to wistful longing as he watches them soar by. Plain white background, character-focused, subtle natural idle motion, smooth animation, no glitches, no extra limbs, consistent character design.",
+      "sfx_prompt": "a cute tiny high-pitched dragon squeak chirp, a small crackling spark puff, soft ambient breeze",
+      "model": "kling-3.0-standard",
+      "cfg_scale": 0.45,
+      "transition_out": "none"
+    }
+  ]
+}

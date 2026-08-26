@@ -1,0 +1,35 @@
+{
+  "name": "ai-video-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Automated short-form (9:16, 60s) AI video pipeline: Kling (fal.ai) + ElevenLabs + Remotion",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "estimate": "node scripts/estimate-cost.mjs",
+    "test:scene": "node scripts/test-scene.mjs",
+    "gen:video": "node scripts/gen-video.mjs",
+    "gen:video:evolink": "node scripts/gen-video-evolink.mjs",
+    "gen:audio": "node scripts/gen-audio.mjs",
+    "assemble": "node scripts/assemble.mjs",
+    "upscale": "node scripts/upscale-video.mjs",
+    "studio": "remotion studio remotion/index.ts",
+    "render": "node scripts/render.mjs"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/renderer": "^4.0.0",
+    "@types/react": "^18.3.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "remotion": "^4.0.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "bobo-workout-test",
+  "title": "Bobo workout fail (test)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 10,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "source_image": "bobo-workout.png",
+      "motion_prompt": "The same 2D illustrated character Bobo, wearing a headband, quickly pumps the dumbbells up and down doing fast bicep curls, sweat drops flicking off with each rep, cheeks puffing with effort, brow furrowed in strain, breathing hard. After a few fast reps his arms suddenly give out mid-curl, he loses his balance and comically topples backward, flopping flat onto the yoga mat with the dumbbells dropping and rolling beside him. He lies there sprawled and defeated, chest heaving, with a tired, unimpressed deadpan expression. The desk lamp and monitor glow flicker faintly, city lights twinkle outside the window. Cozy late-night comedic energy, smooth continuous motion, no glitches, consistent character and art style.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, 3D render, photorealistic, style change, different art style, extra limbs, disappearing objects, warped body",
+      "cfg_scale": 0.5
+    }
+  ]
+}

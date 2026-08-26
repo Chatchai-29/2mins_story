@@ -1,0 +1,53 @@
+{
+  "video_id": "reveal-watermelon-001",
+  "title": "ห้องนอนในฝันธีมแตงโม (reveal)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 20,
+  "background_music": "playful dreamy cinematic summer vibe, fresh and magical, uplifting, no vocals, gentle build to the reveal",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 5,
+      "start_image": "watermelon-start.png",
+      "end_image": "watermelon-mid1.png",
+      "motion_prompt": "photorealistic cinematic film still. The woman swings the translucent glowing crystal axe downward and splits the colossal giant watermelon; the melon cracks wide open with a bright burst of radiant light from within, revealing juicy red flesh and black seeds, watermelon juice and droplets splashing outward, mist and sparkles in the air. Dynamic yet smooth motion, dramatic volumetric golden-hour sunlight, realistic textures, one consistent character seen from behind, no glitches, no extra limbs.",
+      "sfx_prompt": "a solid chopping crack as the giant watermelon splits, juicy wet splash, sparkling shimmer",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 5,
+      "start_image": "watermelon-mid1.png",
+      "end_image": "watermelon-mid2.png",
+      "motion_prompt": "photorealistic cinematic film still. The split giant watermelon opens further, its two juicy red halves parting to reveal a glowing bright opening. The camera moves slowly forward following the woman from behind as she steps toward the radiant crack, juice droplets and light sparkles drifting in the air. Smooth continuous motion, realistic textures, dramatic light, one consistent character, no glitches.",
+      "sfx_prompt": "soft wet creak of parting fruit, gentle magical shimmer, faint sea breeze",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    },
+    {
+      "scene": 3,
+      "duration_sec": 5,
+      "start_image": "watermelon-mid2.png",
+      "end_image": "watermelon-end1.png",
+      "motion_prompt": "photorealistic cinematic film still. The camera pushes forward through the glowing crack of the giant watermelon following the woman from behind, and the scene seamlessly transitions into a bright pink watermelon-themed bedroom seen through an archway. Warm summer light, sheer curtains, fresh and magical atmosphere. Continuous forward camera motion, smooth morph, realistic textures, one consistent character, no glitches.",
+      "sfx_prompt": "magical whoosh through the portal, soft chimes, warm room ambience",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    },
+    {
+      "scene": 4,
+      "duration_sec": 5,
+      "start_image": "watermelon-end1.png",
+      "end_image": "watermelon-end2.png",
+      "motion_prompt": "photorealistic cinematic film still. The woman walks toward the round watermelon-slice bed in the cozy pink bedroom and gently reclines onto it to rest. Warm summer sunlight streams through the arched window, sheer curtains sway softly, a few petals drift. Gentle camera movement, calm cheerful atmosphere, one consistent character, smooth natural motion, no glitches.",
+      "sfx_prompt": "calm warm room ambience, gentle breeze, soft rustle of fabric",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    }
+  ]
+}

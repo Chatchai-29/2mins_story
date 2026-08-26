@@ -1,0 +1,30 @@
+{
+  "video_id": "reveal-gemini-001",
+  "title": "ห้องในฝันราศีเมถุน (reveal)",
+  "aspect_ratio": "9:16",
+  "background_music": "dreamy cinematic ambient, warm and airy, magical shimmer, no vocals, gentle build",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 5,
+      "start_image": "gemini-start.png",
+      "end_image": "gemini-mid.png",
+      "motion_prompt": "A cinematic dreamy transformation reveal. The woman stands before a giant glowing golden ornate mirror; the mirror surface ripples and bursts with warm golden light and drifting sparkles as it becomes a portal. The camera smoothly pushes forward, following her from behind as she steps through, and the scene seamlessly transitions into a bright airy yellow bedroom filled with warm morning sunlight, sheer curtains billowing, cherry blossom petals and small birds gently drifting through the air. Continuous forward camera motion, elegant and magical, smooth morph, one consistent character, no glitches, no extra limbs.",
+      "sfx_prompt": "soft magical shimmer and whoosh as the portal opens, gentle breeze, light chimes",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    },
+    {
+      "scene": 2,
+      "duration_sec": 5,
+      "start_image": "gemini-mid.png",
+      "end_image": "gemini-end.png",
+      "motion_prompt": "The woman gracefully walks toward the round bed in a bright sunlit yellow bedroom and gently reclines onto it to rest. Sheer curtains sway softly in the breeze, warm god-rays pour in, cherry blossom petals and feathers float through the air, golden light shimmers across the room. Gentle camera movement with slight parallax, calm dreamy elegant atmosphere, one consistent character, smooth natural motion, no glitches.",
+      "sfx_prompt": "gentle breeze, soft rustle of fabric, calm warm room ambience",
+      "model": "kling-3.0-pro",
+      "cfg_scale": 0.4,
+      "transition_out": "none"
+    }
+  ]
+}

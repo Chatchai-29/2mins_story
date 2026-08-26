@@ -1,0 +1,23 @@
+# === secrets ===
+.env
+.env.local
+*.key
+
+# === node ===
+node_modules/
+npm-debug.log*
+.npm/
+
+# === media / build output (ไฟล์ใหญ่ ไม่ commit) ===
+assets/**
+!assets/.gitkeep
+output/**
+!output/.gitkeep
+remotion/out/
+.remotion/
+
+# === misc ===
+.DS_Store
+Thumbs.db
+*.log
+.cache/

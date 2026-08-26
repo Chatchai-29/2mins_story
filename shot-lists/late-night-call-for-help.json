@@ -1,0 +1,80 @@
+{
+  "video_id": "late-night-call-for-help",
+  "title": "Late Night Call for Help",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 73,
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 01.png",
+      "narration": "It was around 10:30 at night when Cynthia heard someone pounding on her front door.",
+      "motion_prompt": "A quiet suburban house at night, viewed from across the street. Thin mist drifts slowly across the lawn and street. Leaves on the large foreground tree rustle gently in a faint breeze. The warm light in the windows and porch lamp flickers very subtly, almost imperceptibly, as if the power is unstable. Extremely slow, almost imperceptible camera push-in toward the house, building a sense of quiet dread. No people, no fast movement, nothing changes suddenly — just a slow unsettling stillness."
+    },
+    {
+      "scene": 2,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 02.png",
+      "narration": "Her husband was away that night, and she was home with her children. Then she heard a man shouting outside.",
+      "motion_prompt": "A worried mother stands in a dim living room near the open front door. She slowly turns her head from the open door toward the staircase, her chest rising and falling as she breathes anxiously. In the background, her two children continue climbing the stairs and disappear around the corner at the top. The mother takes one small tentative step forward and raises her hand slightly toward the open door, as if about to reach for it, her worried expression deepening."
+    },
+    {
+      "scene": 3,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 03.png",
+      "narration": "She looked through the peephole and saw a young stranger standing on her porch, desperately begging her to open the door.",
+      "motion_prompt": "A terrified young man in rain-soaked clothes pounds both hands rhythmically on a wooden front door, urgent and desperate. Rain falls visibly around him. He briefly glances back over his shoulder toward the dark street behind him, then turns back and keeps pounding, his mouth moving as if pleading loudly."
+    },
+    {
+      "scene": 4,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 04.png",
+      "narration": "He kept saying that people were after him. He sounded terrified. But Cynthia had no idea who he was.",
+      "motion_prompt": "Extreme close-up through a peephole of a frightened young man's face. His eyes dart nervously side to side, he leans slightly closer to the door, his mouth moves as if urgently pleading and talking, visible breath in the cold night air."
+    },
+    {
+      "scene": 5,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 05.png",
+      "narration": "For a moment, she wanted to help him. Then she remembered her children were upstairs.",
+      "motion_prompt": "A frightened young man stands with both hands clasped together in a pleading gesture, his hands trembling slightly. He glances anxiously over his shoulder back at the empty street behind him, then turns back toward the door, his mouth moving as if begging, chest visibly rising and falling with heavy anxious breathing."
+    },
+    {
+      "scene": 6,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 06.png",
+      "narration": "She locked the door, called 911, and told her children to hide upstairs. She refused to open the door.",
+      "motion_prompt": "A tense mother continues guiding her two children up a dark staircase, one hand resting protectively on her daughter's shoulder. She keeps glancing back over her shoulder toward the front door behind her with growing fear as she climbs another step upward. The children's heads turn slightly too, sensing her fear."
+    },
+    {
+      "scene": 7,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 07.png",
+      "narration": "Outside, the stranger kept pounding on the door. Then Cynthia noticed something even more frightening.",
+      "motion_prompt": "Exterior view of a suburban house at night. A young man pounds both hands repeatedly on the locked front door, shifting his weight anxiously from foot to foot. He glances up briefly at the security camera mounted above the doorway, then keeps pounding on the door. Rain-wet ground reflects the porch light faintly."
+    },
+    {
+      "scene": 8,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 08.png",
+      "narration": "There were no police nearby. No neighbors outside. Just a terrified stranger standing alone on her porch in the darkness.",
+      "motion_prompt": "A deserted suburban street at night viewed through a window. Bare tree branches sway gently in the wind. The distant streetlight flickers faintly. A very slow, almost imperceptible push-in through the window toward the empty street, building a quiet sense of isolation and dread. No people, no fast movement."
+    },
+    {
+      "scene": 9,
+      "duration_sec": 7,
+      "source_image": "Horror story/Late Night Call for Help/Image 09.png",
+      "narration": "Cynthia finally warned him that she had a gun and that the police were coming. The man suddenly ran away before officers arrived.",
+      "motion_prompt": "Viewed from behind a woman standing in a doorway, a young man sprints away down a wet sidewalk into the night, his legs pumping as he runs further into the distance. Police car lights flash red and blue faintly in the far background, growing slightly brighter. The woman's shoulder shifts slightly as she watches him go."
+    },
+    {
+      "scene": 10,
+      "duration_sec": 10,
+      "source_image": "Horror story/Late Night Call for Help/Image 10.png",
+      "narration": "Later, police found shell casings from a shooting nearby. But they never determined whether the man was running from danger… or running toward it.",
+      "motion_prompt": "A quiet suburban street after midnight. In the distance, a parked police vehicle's lights flash red and blue, pulsing steadily. Two police officers walk slowly along the street with flashlights, scanning the ground as they investigate. A hanging porch plant swings gently in the breeze in the foreground. Subtle fog drifts low across the street."
+    }
+  ]
+}

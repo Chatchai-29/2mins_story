@@ -1,0 +1,66 @@
+{
+  "video_id": "sparx-like-button",
+  "title": "Sparx and the Like Button",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 63,
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 7,
+      "start_image": "sparx-like-0.png",
+      "end_image": "sparx-like-1.png",
+      "motion_prompt": "The same cute baby dragon Sparx stands idly with a bored, sleepy expression, sighing softly with his ears and tail drooping. He slowly turns his body from a side profile to face forward toward the camera, blinking lazily. Plain white background, smooth natural motion, no glitches, consistent character design.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, two horns, twin horns, second horn, extra horn, symmetrical horns, matching horns, pair of horns",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 2,
+      "duration_sec": 8,
+      "start_image": "sparx-like-1.png",
+      "end_image": "sparx-like-2.jpg",
+      "motion_prompt": "The same baby dragon Sparx notices a blue like-button icon nearby, tilts his head with curiosity, then bends down and picks it up with both hands, lifting it up and holding it against his chest with a calm, slightly pleased expression. Plain white background, smooth natural motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 3,
+      "duration_sec": 15,
+      "start_image": "sparx-like-2.jpg",
+      "end_image": "sparx-like-5.jpg",
+      "motion_prompt": "The same baby dragon Sparx is calmly holding a small like-button icon against his chest when a deep rumbling shadow suddenly falls over him. He glances up in alarm as a single colossal like-button icon, many times his own size, comes plummeting down from above. It lands with a huge thud right in front of him, the shockwave making him flinch. Startled, he drops the small icon, quickly crouches down and curls into a tight ball, wrapping both arms over his head for protection. After a moment of stillness, the giant like-button icon slowly topples over onto its side and rolls away off to the side, vanishing out of frame, leaving the ground completely bare. Sparx stays curled up tightly with his eyes shut, unaware yet that it is over. Plain white background, smooth continuous motion, no glitches, consistent character design.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, multiple icons, swarm of icons, crowd of buttons, dozens of buttons, particle explosion, confetti",
+      "cfg_scale": 0.45
+    },
+    {
+      "scene": 4,
+      "duration_sec": 10,
+      "start_image": "sparx-like-5.jpg",
+      "end_image": "sparx-like-6.png",
+      "motion_prompt": "The same baby dragon Sparx slowly opens one eye to peek, then both eyes, and notices the giant like-button is gone. His face breaks into a huge delighted grin and his eyes light up with joy. He springs up onto his feet, spreads his arms and wings wide open, and bounds forward mid-stride toward the camera with an excited, happy expression. Plain white background, smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 5,
+      "duration_sec": 10,
+      "start_image": "sparx-like-6.png",
+      "end_image": "sparx-like-7.png",
+      "motion_prompt": "The same baby dragon Sparx keeps bounding closer with arms spread wide and a big joyful grin, until his face fills the frame right up against the camera lens. He leans in close and gives the screen several quick playful licks in a row, three or four fast tongue swipes, before settling with his tongue still out and one eye winking shut happily. Plain white background, smooth continuous motion, no glitches, consistent character design.",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 6,
+      "duration_sec": 6,
+      "source_image": "sparx-like-7.png",
+      "motion_prompt": "Extreme close-up on the same baby dragon Sparx's tongue as he leans right into the camera lens. His big wet pink tongue swipes upward across the entire frame in one large enthusiastic lick, fully covering and obscuring the view. As the tongue pulls back, the lens remains coated in a thick, streaky film of saliva, blurring and smearing the view completely, with a few drips slowly running down. The screen stays mostly fogged and wet-smeared through to the end. Playful comedic mood, smooth continuous motion, no glitches, consistent character design.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, clear view, clean lens, no smear, screen wiped clean",
+      "cfg_scale": 0.4
+    },
+    {
+      "scene": 7,
+      "duration_sec": 7,
+      "source_image": "sparx-like-ball.png",
+      "motion_prompt": "The same baby dragon Sparx sits contentedly, gently rolling and patting the striped beach ball back and forth between his hands with a relaxed, satisfied little smile, his tail swaying lazily side to side. Small, calm, loopable idle motion, cheerful cozy mood. Plain white background, character stays small within the frame with plenty of empty white space around him, smooth continuous motion, no glitches, consistent character design.",
+      "negative_prompt": "static, frozen, still photograph, motionless, no movement, distorted, morphing artifacts, low quality, character filling the frame, extreme close-up, cropped character",
+      "cfg_scale": 0.4
+    }
+  ]
+}
