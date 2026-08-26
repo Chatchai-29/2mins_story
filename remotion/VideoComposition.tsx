@@ -166,7 +166,7 @@ export const VideoComposition: React.FC<ShotList> = (shotList) => {
           <Sequence key={scene.scene} from={from} durationInFrames={durationInFrames}>
             <SceneClip scene={scene} />
             {scene.sfx_prompt ? (
-              <Audio src={staticFile(`audio/sfx-${scene.scene}.mp3`)} />
+              <Audio src={staticFile(`audio/sfx-${scene.scene}.mp3`)} volume={0.4} />
             ) : null}
             {scene.narration ? (
               <Audio src={staticFile(`audio/narration-${scene.scene}.mp3`)} />
