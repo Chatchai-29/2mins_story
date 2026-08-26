@@ -1,0 +1,137 @@
+{
+  "video_id": "the-forbidden-archive",
+  "title": "The Forbidden Archive",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 108,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 12,
+      "source_image": "Horror story/The Forbidden Archive/Image 01.jpg",
+      "narration": "You have trespassed into the Forbidden Archive of Aethelgard. Before you float three ancient, pulsing cores of absolute power. The guardians are awakening, and you must absorb one to escape. But listen closely… true power in this universe always demands a devastating price.",
+      "motion_prompt": "A dark epic fantasy scene inside a colossal, ruined ancient magical library. In the center, three glowing magical spheres hover above an ancient stone pedestal, slowly rotating in place. One glows golden, one deep void purple, and one blood red. Atmospheric dust drifts through volumetric light rays. Slow, cinematic camera push-in toward the three spheres.",
+      "sfx_prompt": "deep cinematic bass boom, heavy stone grinding, distant monstrous growls",
+      "emphasis_words": ["Forbidden", "price"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Forbidden Archive/Image 02.jpg",
+      "narration": "The First Core: The Chrono-Tear. It grants you ultimate authority over time.",
+      "motion_prompt": "Extreme close-up of a glowing golden magical core hovering in the air. Inside the sphere is an ethereal glowing hourglass. Around the sphere, glowing dust motes and floating rocks are suspended perfectly still in mid-air, slowly rotating. Golden magical aura pulses gently. Slow orbiting camera around the core.",
+      "sfx_prompt": "a ticking clock that suddenly stops, dead silence for a second",
+      "emphasis_words": ["Chrono-Tear", "time"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 5,
+      "source_image": "Horror story/The Forbidden Archive/Image 03.jpg",
+      "narration": "Freeze the entire battlefield or rewind your most fatal mistakes.",
+      "motion_prompt": "A dark fantasy mage surrounded by glowing golden magical runes. In the background, incoming arrows, explosions, and raindrops are completely frozen in mid-air, suspended in a golden aura. Runes pulse and drift slowly around the mage. Dynamic frozen-time composition, slow cinematic push-in.",
+      "sfx_prompt": "frozen time whoosh, glass-like chime, low golden hum",
+      "emphasis_words": ["Freeze"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Forbidden Archive/Image 04.jpg",
+      "narration": "You become a living god.",
+      "motion_prompt": "Extreme close-up of a mage's eye glowing with bright golden light. Inside the pupil, a tiny glowing hourglass is visible, slowly turning. Golden magical energy flares gently from the eye. Slow, dramatic push-in on the eye.",
+      "sfx_prompt": "rising golden shimmer tone",
+      "emphasis_words": ["god"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 12,
+      "source_image": "Horror story/The Forbidden Archive/Image 05.jpg",
+      "narration": "But the price? Every single time you bend time, you permanently shatter a cherished memory. First, your childhood. Then, the faces of your family. Eventually, you will be the strongest warrior alive… but you won't remember who you are fighting for.",
+      "motion_prompt": "A silhouette of a person holding their head in pain. Glowing golden fragments of photographs and memories slowly shatter and dissolve into dust around their head, drifting outward. Dark, emotional, surrealistic atmosphere. Slow, mournful camera drift around the silhouette.",
+      "sfx_prompt": "glass shattering, echoing whisper, fading golden chimes",
+      "emphasis_words": ["price", "shatter", "remember"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Forbidden Archive/Image 06.jpg",
+      "narration": "The Second Core: The Void-Whisper.",
+      "motion_prompt": "Extreme close-up of a deep purple and black magical core hovering in the air. The sphere looks like a miniature black hole absorbing the light around it. Ethereal dark shadows and purple smoke violently swirl around the sphere. Slow orbiting camera around the core.",
+      "sfx_prompt": "low frequency hum, cold wind woosh",
+      "emphasis_words": ["Void-Whisper"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Forbidden Archive/Image 07.jpg",
+      "narration": "Step through the very fabric of reality and become entirely untouchable. Teleport through shadows to assassinate targets without a trace.",
+      "motion_prompt": "A mysterious cloaked figure stepping through a tear in reality. The portal is made of swirling dark shadows, purple cosmic dust, and fractured space. The figure is half-dissolved into black smoke, slowly stepping forward. Slow cinematic push-in through the portal.",
+      "sfx_prompt": "cold wind woosh, reality-tearing static crackle",
+      "emphasis_words": ["untouchable", "trace"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Forbidden Archive/Image 08.jpg",
+      "narration": "No prison can hold you. The price? Every jump through the void rips away a fragment of your humanity.",
+      "motion_prompt": "Close-up of a person's hand turning into dark purple smoke and starry void-like energy. The hand slowly reaches out from the darkness, smoke curling and dissipating. Ethereal, mysterious, glowing purple accents. Slow drift following the reaching hand.",
+      "sfx_prompt": "heartbeat slowing down to a stop, low void hum",
+      "emphasis_words": ["price", "humanity"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 9,
+      "source_image": "Horror story/The Forbidden Archive/Image 09.jpg",
+      "narration": "You will lose all ability to feel joy, sorrow, or love… slowly turning into a hollow, empty husk drifting in the dark.",
+      "motion_prompt": "A portrait of a pale person with completely hollow, glowing purple eyes. Their expression is totally blank, empty, and devoid of all emotion. Their skin looks like cracking porcelain with dark void faintly leaking out, drifting like smoke. Slow, unsettling push-in on the face.",
+      "sfx_prompt": "hollow wind, faint cracking porcelain, distant void whisper",
+      "emphasis_words": ["hollow", "dark"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Forbidden Archive/Image 10.jpg",
+      "narration": "The Third Core: The Crimson Pulse.",
+      "motion_prompt": "Extreme close-up of a pulsating blood-red magical core hovering in the air. The sphere looks like a glowing crystal heart, pulsing rhythmically. Crimson magical energy tendrils shoot out slowly from the sphere, draining life from a withered, dying plant nearby. Slow orbiting camera around the core.",
+      "sfx_prompt": "heavy heartbeat pumping, wet squelching sound",
+      "emphasis_words": ["Crimson"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 9,
+      "source_image": "Horror story/The Forbidden Archive/Image 11.jpg",
+      "narration": "The absolute pinnacle of life magic. Instantly heal any fatal wound, regenerate lost limbs, and command the very blood of your enemies.",
+      "motion_prompt": "A dark fantasy warrior with a massive, glowing fatal wound on their chest. Bright crimson magical threads rapidly knit the flesh and armor back together. Intense red glowing light pulses with each thread. Slow, dramatic push-in on the healing wound.",
+      "sfx_prompt": "wet healing squelch, rising crimson magical hum",
+      "emphasis_words": ["heal", "regenerate"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Forbidden Archive/Image 12.jpg",
+      "narration": "You are immortal. The price? This magic cannot create life; it steals it.",
+      "motion_prompt": "Crimson red droplets of blood levitating gracefully in the air, slowly swirling around a dark fantasy caster's hand to form a glowing magical weapon. Intense red bioluminescence, macabre aesthetic. Slow orbiting camera around the swirling blood.",
+      "sfx_prompt": "dripping blood, low ominous crimson hum",
+      "emphasis_words": ["immortal", "steals"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 10,
+      "source_image": "Horror story/The Forbidden Archive/Image 13.jpg",
+      "narration": "To heal yourself, it violently drains the life force of nature around you… and eventually, the life force of the people you swore to protect.",
+      "motion_prompt": "A dark sorcerer standing in the center of a forest. A wave of red magical energy slowly pulses outward from them. Everything the red light touches instantly decays, turning into grey ash and withered branches. High contrast between glowing red magic and dying grey nature. Slow radial camera pull-back revealing the spreading decay.",
+      "sfx_prompt": "decaying ash, dead leaves crunching, ghostly scream",
+      "emphasis_words": ["drains", "protect"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 12,
+      "source_image": "Horror story/The Forbidden Archive/Image 14.jpg",
+      "narration": "The archive is collapsing! The ceiling is tearing apart! Memory… Emotion… or the lives of the innocent. What will you sacrifice to survive? Choose 1, 2, or 3. Lock your destiny in the comments… before you are buried here forever.",
+      "motion_prompt": "The same ancient magical library from before, now actively collapsing. Huge stone pillars crumble, debris falls from the ceiling. The three glowing magical spheres (gold, purple, red) spin violently in the center. Urgent, intense energy, dust and rubble scattering. Fast, dynamic camera shake and push-in matching the chaos.",
+      "sfx_prompt": "massive earthquake, stone pillars crumbling, intense rising epic music",
+      "emphasis_words": ["collapsing", "sacrifice", "Choose"]
+    }
+  ]
+}
