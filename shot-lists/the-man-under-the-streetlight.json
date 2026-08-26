@@ -1,0 +1,110 @@
+{
+  "video_id": "the-man-under-the-streetlight",
+  "title": "The Man Under the Streetlight",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 81,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 9,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 01.png",
+      "narration": "Every night at exactly 2:17 AM, a man appears beneath the streetlight outside my house. My neighbor gave me one warning.",
+      "motion_prompt": "A deserted suburban street at 2:17 AM, one lonely streetlight illuminating a tall completely black humanoid figure standing perfectly still beneath it, featureless face, unnaturally long arms hanging toward the ground, empty houses disappearing into thick fog, moonless sky, deep black shadows. Extremely slow, almost imperceptible camera push-in toward the figure. No fast movement.",
+      "sfx_prompt": "faint night ambience, distant streetlight hum",
+      "emphasis_words": ["2:17", "warning"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 12,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 02.png",
+      "narration": "Never look directly at him. I thought it was just an old superstition. Until I saw him myself. He was tall. Too tall. Completely black. And he never moved.",
+      "motion_prompt": "View from inside a dark bedroom through partially closed curtains, a tall faceless black figure standing beneath a distant streetlight, only its silhouette visible through fog, one eye-like faint red glow barely visible despite the darkness. Extremely slow, almost imperceptible drift toward the curtains.",
+      "sfx_prompt": "tense low hum, faint curtain rustle",
+      "emphasis_words": ["Never", "tall"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 03.png",
+      "narration": "I looked anyway.",
+      "motion_prompt": "A person secretly peeking through a bedroom window at a distant black humanoid figure under a streetlight, the figure's completely featureless face suddenly turning directly toward the window, impossible distance, fog between them, eerie red pinpoints where eyes might be. Extremely slow, dread-filled turn of the figure's head.",
+      "sfx_prompt": "sharp intake of breath, sudden silence",
+      "emphasis_words": ["looked"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 04.png",
+      "narration": "The streetlight suddenly went out.",
+      "motion_prompt": "First-person POV from inside a dark bedroom, looking through a window toward a deserted suburban street at night, the tall faceless black humanoid entity standing beneath a flickering streetlight in the distance, its head turned directly toward the window, the streetlight suddenly going completely dark, only the faint outline of the entity remaining. Extremely slow build before the light cuts out.",
+      "sfx_prompt": "electrical flicker and snap, sudden darkness thud",
+      "emphasis_words": ["out"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 05.png",
+      "narration": "When it came back… he was closer. I stepped away from the window.",
+      "motion_prompt": "Low-angle cinematic shot from ground level on a deserted suburban road at night, looking upward toward a towering faceless black humanoid entity standing much closer to the viewer, unnaturally elongated arms nearly touching the pavement, faint red eyes glowing beneath its featureless face, fog drifting across the foreground. Extremely slow, almost imperceptible push-in from below.",
+      "sfx_prompt": "streetlight buzzing back on, low ominous drone",
+      "emphasis_words": ["closer"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 06.png",
+      "narration": "The light went out again.",
+      "motion_prompt": "High overhead bird's-eye view looking straight down at a deserted suburban street at night, several streetlights forming isolated pools of light across the road, a tiny human figure standing near one pool of light, the tall black humanoid entity appearing unnaturally elongated between the pools of darkness, its shadow stretching in the wrong direction. Extremely slow drift across the street below.",
+      "sfx_prompt": "electrical snap, darkness settling",
+      "emphasis_words": ["again"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 07.png",
+      "narration": "When it came back… he was standing directly outside my window. I froze.",
+      "motion_prompt": "Extreme close-up from inside a dark bedroom, framing only the upper half of a second-story window, the gigantic faceless black entity pressed impossibly close against the glass outside, its head tilted sharply sideways, one enormous hand resting against the window, faint red eyes visible through condensation. Extremely slow, almost imperceptible push toward the glass.",
+      "sfx_prompt": "held breath, faint glass condensation creak",
+      "emphasis_words": ["froze"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 12,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 08.png",
+      "narration": "Then I saw another shadow behind me. I slowly turned around. Nothing. I looked back at the window. There were now two of him. One outside. One standing behind me.",
+      "motion_prompt": "Over-the-shoulder cinematic shot from behind a terrified person standing inside a dark bedroom, their shoulders and silhouette occupying the foreground, a tall faceless black humanoid entity standing silently several feet behind them, partially hidden in darkness, faint red eyes visible, while another enormous silhouette can be seen reflected in the bedroom window. Extremely slow, dread-filled stillness.",
+      "sfx_prompt": "tense silence, faint floorboard creak, low drone",
+      "emphasis_words": ["two"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 09.png",
+      "narration": "That's when I understood the real rule.",
+      "motion_prompt": "Wide-angle lens view from the far corner of a dark bedroom, dramatic distorted perspective making the walls appear unnaturally stretched, the protagonist trapped between two identical faceless black entities, one standing inside the room and another visible through the window outside, both with faint red glowing eyes, their enormous shadows merging across the walls and ceiling. Extremely slow, oppressive stillness.",
+      "sfx_prompt": "deep unsettling drone swelling",
+      "emphasis_words": ["real"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 7,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 10.png",
+      "narration": "Looking at him doesn't make him come closer. It tells him where you live. I ran downstairs.",
+      "motion_prompt": "Low-angle handheld shot from partway up a dark wooden staircase, a terrified figure running down the stairs in motion blur, one hand gripping the railing, hair and clothes blurred with speed, while a tall faceless black entity with faint glowing red eyes stands motionless in a doorway at the bottom of the stairs, framed photos and deep shadows lining the wall. Fast, frantic running motion — unlike other scenes, this one moves quickly, matching the character's panic.",
+      "sfx_prompt": "frantic footsteps on wooden stairs, heavy breathing, heartbeat thumping",
+      "emphasis_words": ["closer", "live"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 13,
+      "source_image": "Horror story/The Man Under the Streetlight/Image 11.png",
+      "narration": "But when I looked outside… the entire street was filled with them. Hundreds of identical figures. All staring at my house. Then every streetlight went dark. Except the one above my front door.",
+      "motion_prompt": "Cinematic aerial establishing shot from high above a dark suburban neighborhood at midnight, a single isolated house surrounded by dozens of identical tall faceless black humanoid entities positioned throughout the streets, gardens, rooftops and tree line, tiny red eyes glowing like scattered embers across the darkness, every entity facing the same house, enormous unnatural shadows connecting across the ground like a web, thick fog covering the neighborhood, moonless sky. Extremely slow, oppressive descent toward the house.",
+      "sfx_prompt": "deep oppressive drone, countless faint whispers, distant electrical snaps",
+      "emphasis_words": ["Hundreds", "door"]
+    }
+  ]
+}
