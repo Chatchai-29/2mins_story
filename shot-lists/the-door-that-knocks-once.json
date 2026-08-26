@@ -1,0 +1,101 @@
+{
+  "video_id": "the-door-that-knocks-once",
+  "title": "The Door That Knocks Once",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 66,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Door That Knocks Once/Image 01.png",
+      "narration": "My grandmother left me one rule before she died.",
+      "motion_prompt": "A dark old suburban house at night surrounded by heavy fog. Tall dead trees sway very slightly in the wind. The warm light in the windows flickers faintly and unevenly, as if unstable. Extremely slow, almost imperceptible camera push-in toward the front door, building quiet dread. No people, no fast movement, nothing changes suddenly.",
+      "sfx_prompt": "faint howling wind through dead trees, distant creak of old wood",
+      "emphasis_words": ["rule", "died"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Door That Knocks Once/Image 02.png",
+      "narration": "If someone knocks only once… never open the door.",
+      "motion_prompt": "Extreme close-up of an old wooden front door in a dark hallway. A faint handprint slowly fades into view on the frosted glass as if pressed from outside, condensation subtly spreading. Extremely slow, almost imperceptible push-in on the door. No visible person, no fast movement.",
+      "sfx_prompt": "faint muffled single knock, low ambient hum",
+      "emphasis_words": ["once", "never"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 7,
+      "source_image": "Horror story/The Door That Knocks Once/Image 03.png",
+      "narration": "I thought it was just an old superstition. Until 3:13 in the morning.",
+      "motion_prompt": "A dark bedroom at night. An old analog clock glows faintly on the nightstand, its second hand ticking almost imperceptibly. Moonlight through the curtains shifts very slightly. The hallway beyond the half-open door stays perfectly still and dark. Extremely slow camera drift toward the clock.",
+      "sfx_prompt": "soft ticking clock, faint ambient room tone",
+      "emphasis_words": ["superstition", "3:13"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Door That Knocks Once/Image 04.png",
+      "narration": "Knock.",
+      "motion_prompt": "An ancient wooden front door in a completely dark hallway suddenly vibrates once from an unseen knock, a thin trickle of dust falling from the frame. The porch light flickers faintly through the gaps. Otherwise still and silent.",
+      "sfx_prompt": "single sharp knock echoing, dust settling",
+      "emphasis_words": ["Knock"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Door That Knocks Once/Image 05.png",
+      "narration": "Then I heard my mother's voice outside.",
+      "motion_prompt": "View from inside a dark house toward the closed front door. A faint silhouette of a woman stands motionless behind the frosted glass, backlit by the warm porch light. Extremely slow, almost imperceptible push-in toward the door. No fast movement.",
+      "sfx_prompt": "faint muffled woman's voice calling from outside, distant",
+      "emphasis_words": ["mother's"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Door That Knocks Once/Image 06.png",
+      "narration": "\"Honey… open the door.\" The problem was… my mother had been dead for six years.",
+      "motion_prompt": "A frightened figure stands frozen a few feet from the front door, the female silhouette still visible behind the frosted glass. Old family photographs line the hallway wall, one catching a sliver of light. Shadows subtly bend at unnatural angles. Camera holds almost perfectly still, just a faint unsettling drift.",
+      "sfx_prompt": "low dissonant drone, faint muffled voice repeating open the door",
+      "emphasis_words": ["dead", "six"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Door That Knocks Once/Image 07.png",
+      "narration": "I remembered Grandma's rule. So I stayed silent.",
+      "motion_prompt": "A terrified silhouette stands perfectly still in the dark hallway, one finger raised to their lips. The unnatural shadow beneath the front door slowly, almost imperceptibly extends further into the hallway. Extremely slow, minimal camera drift, oppressive stillness.",
+      "sfx_prompt": "held breath, tense silence, faint creak",
+      "emphasis_words": ["silent"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Door That Knocks Once/Image 08.png",
+      "narration": "Then the voice changed. My sister. My best friend. Then… me.",
+      "motion_prompt": "The closed front door is surrounded by faint overlapping translucent silhouettes in the frosted glass, subtly shifting between different shapes. Shadows stretch unnaturally across the walls. Extremely slow, almost imperceptible camera push-in, dreamlike unease.",
+      "sfx_prompt": "layered whispering voices overlapping, distorted echo",
+      "emphasis_words": ["changed", "me"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Door That Knocks Once/Image 09.png",
+      "narration": "Then I heard one more knock.",
+      "motion_prompt": "A dark hallway facing the front door, which stays completely silent and still. Behind, a closed bedroom door sits motionless as a faint black shadow almost imperceptibly seeps from beneath it. Camera holds still, tension building through stillness alone.",
+      "sfx_prompt": "single faint knock from behind, low ominous rumble",
+      "emphasis_words": ["knock"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 9,
+      "source_image": "Horror story/The Door That Knocks Once/Image 10.png",
+      "narration": "But this time… the sound came from inside the house.",
+      "motion_prompt": "Inside the dark house, the front door remains locked and untouched. Behind it, a bedroom door stands slightly open, complete darkness within. A tall faceless silhouette is barely visible in the doorway, two dim red eyes slowly emerging from the dark. Its shadow almost imperceptibly creeps across the floor toward camera. Extremely slow, dread-filled push-in.",
+      "sfx_prompt": "deep ominous drone swelling, faint inhuman breathing",
+      "emphasis_words": ["inside"]
+    }
+  ]
+}
