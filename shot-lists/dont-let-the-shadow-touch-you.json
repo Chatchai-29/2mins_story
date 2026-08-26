@@ -1,0 +1,101 @@
+{
+  "video_id": "dont-let-the-shadow-touch-you",
+  "title": "Don't Let the Shadow Touch You",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 64,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 6,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 01.png",
+      "narration": "In my town, everyone knows one strange rule.",
+      "motion_prompt": "A small isolated town at dusk, empty street lined with old houses. Long shadows stretch unnaturally across the pavement. Streetlights flicker on one by one in the distance. Faint mist drifts slowly between the houses. Extremely slow, almost imperceptible camera push-in down the street. No people, no fast movement.",
+      "sfx_prompt": "faint wind through an empty street, distant streetlight hum",
+      "emphasis_words": ["rule"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 6,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 02.png",
+      "narration": "Never let another person's shadow touch yours.",
+      "motion_prompt": "Two distant human silhouettes stand beneath a single streetlight on an empty street. Their long shadows stretch slowly across the pavement toward each other, the gap between them almost imperceptibly narrowing. Extremely slow camera drift, dark blue night atmosphere.",
+      "sfx_prompt": "low ambient night hum, faint distant footsteps",
+      "emphasis_words": ["touch"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 6,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 03.png",
+      "narration": "They say something happens when the shadows meet.",
+      "motion_prompt": "An old weathered warning sign stands beside a deserted foggy street. Beneath it, two overlapping shadows shift subtly, moving independently of anything above them. The streetlight flickers faintly. Extremely slow, almost imperceptible push-in toward the sign.",
+      "sfx_prompt": "creaking wooden sign, faint wind, low ominous drone",
+      "emphasis_words": ["meet"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 6,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 04.png",
+      "narration": "I never believed it. Until one night.",
+      "motion_prompt": "A lone figure walks slowly down a deserted suburban street at night, hands in pockets, unaware of a tall shadowy figure approaching from behind. Both are lit by a single flickering streetlamp, their long shadows stretching across the pavement. Extremely slow camera drift following from behind.",
+      "sfx_prompt": "footsteps on pavement, faint wind, distant hum",
+      "emphasis_words": ["night"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 6,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 05.png",
+      "narration": "A stranger stepped into the light beside me.",
+      "motion_prompt": "A tall faceless stranger stands beside a lone person beneath a flickering streetlamp, both completely still. The stranger's body is almost entirely black and featureless. Their shadows stretch unnaturally across the empty road. Extremely slow, almost imperceptible push-in, heavy fog drifting.",
+      "sfx_prompt": "low dissonant drone, faint static hum",
+      "emphasis_words": ["stranger"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 6,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 06.png",
+      "narration": "Our shadows touched for less than a second.",
+      "motion_prompt": "Close view of two unnatural shadows on the empty asphalt road beneath a streetlight, slowly drawing closer. The instant they touch, subtle ripples spread across the darkness like liquid. Extremely slow motion, dramatic stillness before and after the touch.",
+      "sfx_prompt": "subtle liquid ripple sound, low unsettling tone",
+      "emphasis_words": ["touched"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 5,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 07.png",
+      "narration": "Nothing happened. So I went home.",
+      "motion_prompt": "A quiet bedroom at night, a figure stands near the doorway looking relieved, moonlight spilling through the window. Their long shadow stretches across the floor — but very subtly, the shadow's head stays turned toward them even as they face forward. Extremely slow, unsettling stillness.",
+      "sfx_prompt": "soft footsteps, faint room ambience, floorboard creak",
+      "emphasis_words": ["Nothing"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 8,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 08.png",
+      "narration": "Then I turned off the light… and my shadow stayed behind.",
+      "motion_prompt": "A dark bedroom lit only by faint moonlight. A figure stands near the wall — but a separate black human-shaped shadow remains standing several feet away on the floor, clearly detached from its owner. Extremely slow, almost imperceptible camera drift toward the detached shadow.",
+      "sfx_prompt": "tense silence, faint low drone, distant hum",
+      "emphasis_words": ["stayed"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 7,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 09.png",
+      "narration": "I froze when the shadow slowly turned toward me.",
+      "motion_prompt": "A detached humanoid shadow stands upright on the bedroom floor, its featureless black head slowly, almost imperceptibly turning toward camera. Two faint red eyes barely glow within the darkness. The real person stands frozen in the background. Extremely slow, dread-filled turn.",
+      "sfx_prompt": "slow ominous drone swelling, faint breathing",
+      "emphasis_words": ["froze"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 8,
+      "source_image": "Horror story/Don't Let the Shadow Touch You/Image 10.png",
+      "narration": "Then I realized… it wasn't my shadow anymore.",
+      "motion_prompt": "The bedroom is swallowed in unnatural blackness. A tall faceless shadow creature stands independently at its center, faint red eyes glowing within its featureless face. Its enormous shadow spreads slowly across the walls and ceiling as the tiny silhouette of the person stands trapped in the corner. Extremely slow, oppressive push-in.",
+      "sfx_prompt": "deep oppressive drone, faint inhuman whisper",
+      "emphasis_words": ["wasn't"]
+    }
+  ]
+}
