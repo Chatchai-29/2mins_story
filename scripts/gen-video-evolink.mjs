@@ -53,17 +53,25 @@ function resolveModel(modelKey) {
 
 // อัปโหลดภาพต้นทาง (base64) ขึ้น EvoLink files API แล้วคืน file_url
 // (export ไว้ให้สคริปต์เทียบโมเดลอื่น เช่น Kling ผ่าน EvoLink ใช้ร่วมกันได้ — logic ไม่ผูกกับ Seedance)
-export async function uploadSourceEvoLink(apiKey, sourceImage) {
+//
+// บั๊กที่เจอจริง (2026-08-26): EvoLink files API เก็บไฟล์โดยใช้แค่ "basename" ของ file_name เป็น key
+// (ตัด path ทิ้งหมด) ถ้าอัปโหลดชื่อ "Image 01.png" ซ้ำกับที่เคยอัปโหลดไว้ก่อนหน้า (จากคนละโปรเจกต์ก็ตาม
+// เพราะทุก shot list ตั้งชื่อภาพว่า "Image 01.png".."Image 10.png" เหมือนกันหมด) มันจะคืน file_url ของ
+// ไฟล์เก่าที่แคชไว้กลับมาเงียบๆ โดยไม่อัปเดตเป็นเนื้อหาใหม่เลย (ยืนยันแล้วด้วยการโหลด URL ที่ได้กลับมา
+// เทียบ md5 กับภาพต้นทางจริง) — แก้โดยบังคับให้ file_name ที่ส่งไป unique เสมอ (ผูกกับ video_id + scene +
+// timestamp) ไม่ใช้ basename ของภาพตรงๆ
+export async function uploadSourceEvoLink(apiKey, sourceImage, uniqueFileName) {
   const path = resolve(DIRS.assets, sourceImage);
   const buf = await readFile(path);
   const ext = sourceImage.split(".").pop()?.toLowerCase() ?? "png";
   const mime = ext === "jpg" ? "jpeg" : ext;
   const base64Data = `data:image/${mime};base64,${buf.toString("base64")}`;
+  const fileName = uniqueFileName ?? `${Date.now()}-${sourceImage.split("/").pop()}`;
 
   const res = await fetch(EVOLINK_FILES_URL, {
     method: "POST",
     headers: authHeaders(apiKey),
-    body: JSON.stringify({ base64_data: base64Data, file_name: sourceImage }),
+    body: JSON.stringify({ base64_data: base64Data, file_name: fileName }),
   });
   const json = await res.json();
   if (!res.ok || !json?.data?.file_url) {
@@ -140,7 +148,9 @@ export async function generateSceneEvoLink(videoId, scene, modelKey, opts = {}) 
 
   const startImg = scene.start_image ?? scene.source_image;
   console.log(`[scene ${scene.scene}] อัปโหลด: ${startImg}`);
-  const imageUrl = await uploadSourceEvoLink(apiKey, startImg);
+  const ext = startImg.split(".").pop()?.toLowerCase() ?? "png";
+  const uniqueFileName = `${videoId}-scene-${scene.scene}-${Date.now()}.${ext}`;
+  const imageUrl = await uploadSourceEvoLink(apiKey, startImg, uniqueFileName);
 
   const taskId = await submitTask(apiKey, {
     imageUrl,
