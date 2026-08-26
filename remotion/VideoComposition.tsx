@@ -14,14 +14,18 @@ export type Word = { word: string; start: number; end: number; emphasis?: boolea
 export type Scene = {
   scene: number;
   duration_sec: number;
-  source_image: string;
-  motion_prompt: string;
+  // ไม่บังคับอีกต่อไป — scene ที่มี reuse_video_of ไม่ต้องเจนภาพ/วิดีโอใหม่ ใช้คลิปของ scene อื่นซ้ำ
+  source_image?: string;
+  motion_prompt?: string;
   sfx_prompt?: string;
   camera?: string;
   transition_out?: string;
   narration?: string;
   // เติมเข้ามาโดย render.mjs จาก audio/narration-{scene}.words.json (ไม่ได้มาจาก shot list เดิม)
   words?: Word[];
+  // นำคลิปวิดีโอของ scene หมายเลขนี้มาใช้ซ้ำแทนการเจนใหม่ (ประหยัด credit) — ใส่ effect ทับผ่าน `effect`
+  reuse_video_of?: number;
+  effect?: "shake_red_zoom";
 };
 
 export type ShotList = {
@@ -61,6 +65,43 @@ const SceneClip: React.FC<{ scene: Scene }> = ({ scene }) => {
       <OffthreadVideo
         src={staticFile(`clips/scene-${scene.scene}.mp4`)}
         style={{ transform: `scale(${scale})`, width: "100%", height: "100%" }}
+      />
+    </AbsoluteFill>
+  );
+};
+
+// climax effect: เอาคลิปวิดีโอของ scene อื่น (reuse_video_of) มาใส่ camera shake + red flash +
+// zoom pump แทนการเจนวิดีโอใหม่ — ใช้ตอนจบแบบนับถอยหลัง/วิกฤต ที่ผู้เขียนสคริปต์ตั้งใจให้ประหยัด
+// credit โดยไม่ต้องเจนภาพซ้ำ (ภาพเดิมพอสื่อได้อยู่แล้ว แค่ปั๊มอารมณ์ตึงเครียดด้วยการตัดต่อ)
+const ClimaxEffectClip: React.FC<{ sourceScene: number }> = ({ sourceScene }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+
+  // shake: จิตเตอร์เร็วๆ สุ่มเทียม (deterministic จาก frame) แอมพลิจูดไม่กี่พิกเซล
+  const shakeX = Math.sin(frame * 3.7) * 6 + Math.sin(frame * 1.3) * 3;
+  const shakeY = Math.cos(frame * 4.1) * 6 + Math.cos(frame * 1.7) * 3;
+
+  // zoom pump: ซูมเข้าออกเร็วๆ ตามจังหวะไซเรน ซ้อนบน slow push-in เดิม
+  const baseZoom = 1 + Math.min(t / 14, 1) * 0.08;
+  const pumpZoom = 1 + Math.sin(frame * 0.9) * 0.025;
+  const scale = baseZoom * pumpZoom;
+
+  // red flash: ไฟกระพริบแดงแบบไซเรน (ไม่ถึงกับเต็มจอ กันดูล้นเกิน)
+  const flashOpacity = 0.18 + Math.max(0, Math.sin(frame * 0.9)) * 0.22;
+
+  return (
+    <AbsoluteFill>
+      <OffthreadVideo
+        src={staticFile(`clips/scene-${sourceScene}.mp4`)}
+        style={{
+          transform: `scale(${scale}) translate(${shakeX}px, ${shakeY}px)`,
+          width: "100%",
+          height: "100%",
+        }}
+      />
+      <AbsoluteFill
+        style={{ backgroundColor: `rgba(255,0,0,${flashOpacity})`, mixBlendMode: "multiply" }}
       />
     </AbsoluteFill>
   );
@@ -164,7 +205,11 @@ export const VideoComposition: React.FC<ShotList> = (shotList) => {
         cursor += durationInFrames;
         return (
           <Sequence key={scene.scene} from={from} durationInFrames={durationInFrames}>
-            <SceneClip scene={scene} />
+            {scene.reuse_video_of ? (
+              <ClimaxEffectClip sourceScene={scene.reuse_video_of} />
+            ) : (
+              <SceneClip scene={scene} />
+            )}
             {scene.sfx_prompt ? (
               <Audio src={staticFile(`audio/sfx-${scene.scene}.mp3`)} volume={0.25} />
             ) : null}

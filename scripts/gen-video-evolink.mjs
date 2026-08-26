@@ -198,9 +198,18 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     process.exit(1);
   }
   const shotList = JSON.parse(await readFile(resolve(file), "utf8"));
-  const scenes = onlyScene
+  let scenes = onlyScene
     ? shotList.scenes.filter((s) => s.scene === onlyScene)
     : shotList.scenes;
+
+  // scene ที่มี reuse_video_of (เช่น climax ที่นำคลิปเดิมมาใส่ effect) ไม่ต้องเจนวิดีโอใหม่ — ข้ามไปเลย
+  const reused = scenes.filter((s) => s.reuse_video_of);
+  if (reused.length) {
+    console.log(
+      `ข้าม scene ${reused.map((s) => s.scene).join(", ")} — reuse_video_of ตั้งไว้ (ใช้ effect ใน Remotion แทนการเจนใหม่)`
+    );
+    scenes = scenes.filter((s) => !s.reuse_video_of);
+  }
 
   const model = resolveModel(modelKey);
   const totalSec = scenes.reduce((s, sc) => s + (sc.duration_sec ?? 5), 0);

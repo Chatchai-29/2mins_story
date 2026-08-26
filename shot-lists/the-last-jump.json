@@ -1,0 +1,137 @@
+{
+  "video_id": "the-last-jump",
+  "title": "The Last Jump (Sci-Fi Survival)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 90,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 12,
+      "source_image": "Horror story/The Last Jump/Image 01.png",
+      "narration": "Captain… please wake up. Hull integrity is compromised. Life support is dropping below three percent. Our dark-matter reactor has exactly enough energy for one… final… jump. Look at the viewscreen. We have three possible coordinates. Choose our destination now, or we freeze in the void.",
+      "motion_prompt": "First-person view from inside a dark, heavily damaged spaceship cockpit. Red emergency alarm lights are flashing. The glass window is slightly cracked. Looking out into deep space: on the left, a shadowy alien planet with glowing green atmosphere; in the center, a blinding pulsating cosmic white light; on the right, a massive ancient rusted derelict spaceship drifting in the dark. Slow cinematic push-in toward the viewscreen, alarm lights pulsing steadily.",
+      "sfx_prompt": "blaring red alarm, heavy breathing, sparking electrical sounds",
+      "emphasis_words": ["Captain", "jump", "Choose"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 4,
+      "source_image": "Horror story/The Last Jump/Image 02.png",
+      "narration": "To the left: An uncharted, shadow planet.",
+      "motion_prompt": "A damaged spaceship entering the thick, stormy atmosphere of an uncharted alien planet. Swirling dark clouds, violent green lightning, and mysterious bioluminescent glow from the surface below. Slow cinematic push-in following the ship into the storm.",
+      "sfx_prompt": "deep atmospheric rumble, wind howling",
+      "emphasis_words": ["shadow"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Last Jump/Image 03.png",
+      "narration": "Scanners detect a breathable atmosphere and clean water. It could be a new Eden, our only chance to start over.",
+      "motion_prompt": "The surface of a beautiful but eerie alien planet. Dense jungle with massive glowing alien flora, glowing blue waterfalls, and thick misty atmosphere. Looks like a new habitable Eden. Slow, hopeful camera drift across the glowing landscape.",
+      "sfx_prompt": "beautiful synth chime, birds chirping",
+      "emphasis_words": ["Eden"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 5,
+      "source_image": "Horror story/The Last Jump/Image 04.png",
+      "narration": "But… I am reading massive biological signatures on the surface.",
+      "motion_prompt": "First-person view exploring a misty alien jungle. In the foreground, massive terrifying claw marks deeply gouged into a giant alien tree. Eerie shadows, thick fog. Slow, suspenseful push-in on the claw marks.",
+      "sfx_prompt": "twig snapping, suspenseful bass drop",
+      "emphasis_words": ["biological"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 10,
+      "source_image": "Horror story/The Last Jump/Image 05.png",
+      "narration": "Once we land, we cannot take off again. We might just become prey for the apex predators waiting in the mist. Do we risk the unknown?",
+      "motion_prompt": "A massive terrifying alien apex predator emerging from the thick toxic mist in a dark alien jungle. Only its glowing multiple eyes and razor-sharp silhouette are visible. Slow, dread-filled reveal as the predator's eyes emerge from the mist.",
+      "sfx_prompt": "terrifying alien roar",
+      "emphasis_words": ["prey", "risk"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 5,
+      "source_image": "Horror story/The Last Jump/Image 06.png",
+      "narration": "Dead center: A blinding cosmic light broadcasting an outdated distress frequency.",
+      "motion_prompt": "A small spaceship flying directly towards a massive, blinding, pulsating golden-blue cosmic anomaly in deep space. The light is overwhelmingly bright, distorting the space around it. Slow push-in toward the light, lens flare intensifying.",
+      "sfx_prompt": "high-pitched cosmic frequency",
+      "emphasis_words": ["blinding"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Last Jump/Image 07.png",
+      "narration": "It might be a Galactic Federation rescue station. A guaranteed ticket home.",
+      "motion_prompt": "Inside a pristine, hyper-futuristic Galactic Federation rescue station. Clean white metallic walls, glowing blue holographic interfaces, peaceful and safe atmosphere. Slow, calm camera drift through the station.",
+      "sfx_prompt": "clean futuristic hum, peaceful ambient",
+      "emphasis_words": ["home"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Last Jump/Image 08.png",
+      "narration": "Or… it is a terrifying quantum anomaly. A dying star collapsing on itself.",
+      "motion_prompt": "The blinding cosmic light reveals itself to be a terrifying, chaotic quantum anomaly. Space and time are visually tearing apart like broken glass. Slow, unsettling push-in as reality fractures further.",
+      "sfx_prompt": "Geiger counter clicking rapidly, space tearing sound",
+      "emphasis_words": ["anomaly"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Last Jump/Image 09.png",
+      "narration": "A radioactive trap that will instantly incinerate our ship into ash. Do we gamble everything on the light?",
+      "motion_prompt": "A spaceship getting too close to a blinding cosmic light and beginning to incinerate. The metal hull is glowing red hot and disintegrating into glowing ash. Slow, dramatic push-in as the hull disintegrates.",
+      "sfx_prompt": "fire roaring, metal melting",
+      "emphasis_words": ["incinerate", "gamble"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 5,
+      "source_image": "Horror story/The Last Jump/Image 10.png",
+      "narration": "To the right: An ancient, colossal dreadnought drifting in the dark.",
+      "motion_prompt": "A colossal, ancient dreadnought spaceship drifting silently in the dark void of space. The ship is heavily rusted, entirely dark with no running lights, looking like a floating graveyard. Slow cinematic push-in toward the derelict hull.",
+      "sfx_prompt": "empty space wind, deep metallic groan",
+      "emphasis_words": ["ancient", "dark"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 6,
+      "source_image": "Horror story/The Last Jump/Image 11.png",
+      "narration": "It has intact oxygen reserves. Physical survival is one hundred percent guaranteed if we dock.",
+      "motion_prompt": "First-person view walking down a claustrophobic, dark metallic corridor inside an abandoned spaceship. The only light comes from flickering red emergency floor lights and sparking exposed wires. Slow forward drift down the corridor.",
+      "sfx_prompt": "footsteps echoing on metal, flickering lights",
+      "emphasis_words": ["guaranteed"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 7,
+      "source_image": "Horror story/The Last Jump/Image 12.png",
+      "narration": "But… the ship is locked in a military quarantine. The cryo-pods are shattered from the inside.",
+      "motion_prompt": "A massive cryogenic sleep chamber inside a dark derelict spaceship. The glass pods are shattered from the inside out, and strange dark organic webbing covers the walls. Military quarantine tape torn apart. Slow, suspenseful push-in on the shattered pods.",
+      "sfx_prompt": "glass crunching under boots, eerie whisper",
+      "emphasis_words": ["quarantine", "shattered"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 8,
+      "source_image": "Horror story/The Last Jump/Image 13.png",
+      "narration": "Whatever slaughtered its crew… or the rogue AI that guards them, is still hunting inside. Do we board the ghost ship?",
+      "motion_prompt": "A terrifying rusted rogue AI security robot with a cracked glowing red visor, lurking in the pitch-black shadows of a spaceship corridor. It looks damaged but deadly. Slow, dread-filled reveal as the red visor glows brighter.",
+      "sfx_prompt": "mechanical screech, heavy metal stomping",
+      "emphasis_words": ["slaughtered", "hunting"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 14,
+      "reuse_video_of": 1,
+      "effect": "shake_red_zoom",
+      "narration": "Captain, the reactor is overloading! Ten seconds to absolute system failure. The planet, the light, or the derelict ship? Left, Center, or Right? Give the command in the comments… before we fade into the dark forever.",
+      "sfx_prompt": "reactor whining loudly, frantic beeping, countdown ticking",
+      "emphasis_words": ["overloading", "failure", "Give"]
+    }
+  ]
+}
