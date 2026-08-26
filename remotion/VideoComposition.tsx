@@ -116,7 +116,7 @@ const Captions: React.FC<{ words?: Word[] }> = ({ words }) => {
           justifyContent: "center",
           gap: "0 19px",
           maxWidth: "88%",
-          marginBottom: 266,
+          marginBottom: 372,
         }}
       >
         {chunk.map((w, i) => {
