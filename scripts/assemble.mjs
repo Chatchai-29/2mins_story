@@ -30,9 +30,11 @@ const audioDir = join(videoDir, "audio");
 const scenes = shotList.scenes ?? [];
 const args = ["-y", "-nostdin", "-loglevel", "error"];
 
-// อินพุตวิดีโอเรียงตาม scene
+// อินพุตวิดีโอเรียงตาม scene — scene ที่มี reuse_video_of (เช่น climax effect) ไม่มีคลิปเป็นของตัวเอง
+// ใช้คลิปของ scene ต้นทางแทน (พรีวิวเงียบนี้ไม่มี shake/red-flash effect ที่ใส่เฉพาะตอน render จริงผ่าน Remotion)
 for (const s of scenes) {
-  const clip = join(clipsDir, `scene-${s.scene}.mp4`);
+  const sourceScene = s.reuse_video_of ?? s.scene;
+  const clip = join(clipsDir, `scene-${sourceScene}.mp4`);
   if (!existsSync(clip)) throw new Error(`ไม่พบคลิป: ${clip}`);
   args.push("-i", clip);
 }
