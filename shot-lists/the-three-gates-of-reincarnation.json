@@ -1,0 +1,164 @@
+{
+  "video_id": "the-three-gates-of-reincarnation",
+  "title": "The Three Gates of Reincarnation (Isekai Theme)",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 109,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 12,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 01.jpg",
+      "narration": "You have died in your world. But do not despair. I offer you a second life in the realms beyond. Before you stand three gates of reincarnation. Two will lead to ultimate supremacy. One… is a trap. Choose your destiny.",
+      "motion_prompt": "Wide shot, a pristine infinite white realm. A mysterious faceless giant deity in glowing white robes points toward three massive, ornate doorways. Door 1 is made of dark obsidian radiating fire. Door 2 is made of brilliant, glowing gold. Door 3 is made of sleek black steel and silver. Slow, divine camera push-in toward the three doors.",
+      "sfx_prompt": "ethereal choir, soft echoing wind",
+      "emphasis_words": ["died", "trap", "destiny"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 5,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 02.png",
+      "narration": "Door number one: The Path of the Flame Emperor.",
+      "motion_prompt": "Close-up on the first doorway, made of dark obsidian radiating cracks of glowing cosmic fire. Embers drift slowly upward, the fire pulsing rhythmically along the obsidian veins. Slow push-in as the door glows brighter.",
+      "sfx_prompt": "roaring flames igniting, deep magical whoosh",
+      "emphasis_words": ["Flame", "Emperor"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 4,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 03.jpg",
+      "narration": "You are reborn with cosmic-level fire magic.",
+      "motion_prompt": "Wide shot, an epic western fantasy battlefield. A lone dark-haired wizard stands confidently on a cliff, facing a massive army of orcs. Cosmic fire slowly erupts from his hands, turning the sky into a burning galaxy. Slow cinematic push-in on the wizard.",
+      "sfx_prompt": "roaring flames, epic orchestral swell",
+      "emphasis_words": ["cosmic-level"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 6,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 04.jpg",
+      "narration": "You will conquer entire dimensions, reducing any obstacle to ash with a single thought.",
+      "motion_prompt": "Extreme low angle looking up at an overpowered mage hovering in the air, summoning a gigantic supernova fireball that dwarfs the mountains behind him. Slow, awe-inspiring push-in from below as the fireball grows.",
+      "sfx_prompt": "deep bass rumble, crackling supernova energy",
+      "emphasis_words": ["conquer", "ash"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 6,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 05.jpg",
+      "narration": "Generals and kings of the western realms will bow before your absolute power.",
+      "motion_prompt": "Over-the-shoulder shot from behind the supreme mage. In front of him, hundreds of heavily armored fantasy knights kneel in total submission on scorched earth. Slow, majestic push-in over the mage's shoulder.",
+      "sfx_prompt": "armor clanking, low regal horn drone",
+      "emphasis_words": ["bow", "power"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 6,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 06.jpg",
+      "narration": "You rule with unquestioned might. A glorious, overpowered existence with no strings attached.",
+      "motion_prompt": "Close-up portrait of the mage's face, an intelligent, confident smirk. His eyes glow with intense cosmic blue and orange flames. A crown of pure fire floats above his head, flickering slowly. Slow push-in on the face.",
+      "sfx_prompt": "triumphant orchestral sting, fire crackling softly",
+      "emphasis_words": ["rule", "glorious"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 4,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 07.png",
+      "narration": "Door number two: The Golden Path of Immortality.",
+      "motion_prompt": "Close-up on the second doorway, made of brilliant glowing gold, ornate patterns shimmering across its surface. Warm golden light pulses invitingly. Slow push-in as the gold glows brighter and more inviting.",
+      "sfx_prompt": "heavenly harp shimmer, golden magical chime",
+      "emphasis_words": ["Golden", "Immortality"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 5,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 08.jpg",
+      "narration": "You are granted an indestructible body and infinite regeneration.",
+      "motion_prompt": "Eye-level shot. A hero in shining silver armor happily and confidently steps through a glowing, beautiful golden magical portal. Bright, hopeful lighting. Slow push-in following the hero through the portal.",
+      "sfx_prompt": "bright magical portal hum, hopeful orchestral swell",
+      "emphasis_words": ["indestructible"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 4,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 09.jpg",
+      "narration": "But… there was a miscalculation in the teleportation.",
+      "motion_prompt": "Dutch angle, tilted camera, disorienting and chaotic. The hero falls endlessly into a pitch-black, fleshy, organic cavern covered in green acidic slime. Slow tumbling drift, tilt intensifying.",
+      "sfx_prompt": "dissonant string screech, wet organic squelch",
+      "emphasis_words": ["miscalculation"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 7,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 10.jpg",
+      "narration": "You spawn directly inside the stomach of a dimension-eating leviathan. Trapped in the pitch-black abyss.",
+      "motion_prompt": "Top-down bird's-eye view. The hero is trapped at the bottom of a colossal, terrifying alien stomach. Glowing pools of green acid slowly melt his armor while golden magic tries to heal him simultaneously. Slow, claustrophobic push-in from above.",
+      "sfx_prompt": "squelching meat, distant heartbeat thud",
+      "emphasis_words": ["leviathan", "abyss"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 9,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 11.jpg",
+      "narration": "You are digested and regenerated by stomach acid… over, and over, and over again. For all eternity. Screaming in the dark.",
+      "motion_prompt": "Extreme close-up of the hero's eye in the pitch dark, illuminated only by the faint glow of his healing magic. The eye is wide open in absolute terror, pain, and madness. Slow, unbearable push-in on the eye.",
+      "sfx_prompt": "ghostly scream, wet squelching, dissonant horror strings",
+      "emphasis_words": ["eternity", "Screaming"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 4,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 12.png",
+      "narration": "Door number three: The Path of the Sovereign.",
+      "motion_prompt": "Close-up on the third doorway, made of sleek black steel and silver, geometric patterns glinting coldly. Slow push-in as the steel catches a faint regal light.",
+      "sfx_prompt": "grand brass fanfare stinger, regal chime",
+      "emphasis_words": ["Sovereign"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 5,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 13.jpg",
+      "narration": "You are reborn not just with strength, but with supreme intellect.",
+      "motion_prompt": "Establishing drone shot. A massive, awe-inspiring gothic fantasy city built on the edge of a colossal cliff. A dark, magnificent castle stands at the center. Slow, sweeping push-in toward the castle at sunset.",
+      "sfx_prompt": "grand orchestral swell, distant city ambience",
+      "emphasis_words": ["intellect"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 6,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 14.jpg",
+      "narration": "You outsmart every villain, building a massive empire in a dark fantasy world.",
+      "motion_prompt": "Eye-level tracking shot. A sharply dressed, highly intelligent young ruler walks confidently down a grand marble throne room. Massive, terrifying shadow-knights flank him on both sides, bowing respectfully. Slow tracking push-in following the ruler.",
+      "sfx_prompt": "footsteps on marble, low regal drone",
+      "emphasis_words": ["outsmart", "empire"]
+    },
+    {
+      "scene": 15,
+      "duration_sec": 6,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 15.jpg",
+      "narration": "Your loyal shadow-knights crush your enemies before they even form a plan.",
+      "motion_prompt": "High angle shot looking down at the ruler sitting on a massive throne of black iron, casually resting his chin on his hand, looking bored but incredibly competent. A glowing magical tactical map of the continent floats in front of him. Slow descending push-in.",
+      "sfx_prompt": "low ominous drone, faint clashing swords in the distance",
+      "emphasis_words": ["crush"]
+    },
+    {
+      "scene": 16,
+      "duration_sec": 7,
+      "source_image": "Choice/The Three Gates of Reincarnation/Image 16.jpg",
+      "narration": "You live as a brilliant mastermind, manipulating the world from your throne in perfect victory.",
+      "motion_prompt": "Close-up of the ruler's hands moving a glowing chess piece on the magical map. His face is half-shadowed, showing a cold, calculating, brilliant mastermind smile. Slow push-in on the chess piece and smile.",
+      "sfx_prompt": "soft chess piece click, triumphant low orchestral sting",
+      "emphasis_words": ["mastermind", "victory"]
+    },
+    {
+      "scene": 17,
+      "duration_sec": 13,
+      "reuse_video_of": 1,
+      "effect": "shake_red_zoom",
+      "narration": "The portals are closing. Will you claim the Cosmic Flame, risk the Golden Trap, or rule as the Mastermind? Door 1, 2, or 3? Make your choice in the comments… before your soul fades away.",
+      "sfx_prompt": "heavy ticking clock, god-like echoing voice",
+      "emphasis_words": ["closing", "choice"]
+    }
+  ]
+}
