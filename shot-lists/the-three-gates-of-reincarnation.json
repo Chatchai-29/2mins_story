@@ -21,7 +21,7 @@
       "duration_sec": 5,
       "source_image": "Choice/The Three Gates of Reincarnation/Image 02.png",
       "narration": "Door number one: The Path of the Flame Emperor.",
-      "motion_prompt": "Close-up on the first doorway, made of dark obsidian radiating cracks of glowing cosmic fire. Embers drift slowly upward, the fire pulsing rhythmically along the obsidian veins. Slow push-in as the door glows brighter.",
+      "motion_prompt": "Fast, rapid zoom-in toward a doorway made of dark obsidian radiating cracks of glowing cosmic fire. The instant the camera reaches it, the door bursts open, revealing a swirling dimensional vortex of cosmic fire and burning galaxies inside, like a portal transition into another world. Quick, dynamic camera speed — not a slow drift.",
       "sfx_prompt": "roaring flames igniting, deep magical whoosh",
       "emphasis_words": ["Flame", "Emperor"]
     },
@@ -66,7 +66,7 @@
       "duration_sec": 4,
       "source_image": "Choice/The Three Gates of Reincarnation/Image 07.png",
       "narration": "Door number two: The Golden Path of Immortality.",
-      "motion_prompt": "Close-up on the second doorway, made of brilliant glowing gold, ornate patterns shimmering across its surface. Warm golden light pulses invitingly. Slow push-in as the gold glows brighter and more inviting.",
+      "motion_prompt": "Fast, rapid zoom-in toward a doorway made of brilliant glowing gold with ornate shimmering patterns. The instant the camera reaches it, the door swings open, revealing a bright golden dimensional vortex swirling inside, like a portal transition into another realm. Quick, dynamic camera speed — not a slow drift.",
       "sfx_prompt": "heavenly harp shimmer, golden magical chime",
       "emphasis_words": ["Golden", "Immortality"]
     },
@@ -111,7 +111,7 @@
       "duration_sec": 4,
       "source_image": "Choice/The Three Gates of Reincarnation/Image 12.png",
       "narration": "Door number three: The Path of the Sovereign.",
-      "motion_prompt": "Close-up on the third doorway, made of sleek black steel and silver, geometric patterns glinting coldly. Slow push-in as the steel catches a faint regal light.",
+      "motion_prompt": "Fast, rapid zoom-in toward a doorway made of sleek black steel and silver with cold geometric patterns. The instant the camera reaches it, the door slides open, revealing a dark strategic dimensional vortex with glowing tactical light inside, like a portal transition into another realm. Quick, dynamic camera speed — not a slow drift.",
       "sfx_prompt": "grand brass fanfare stinger, regal chime",
       "emphasis_words": ["Sovereign"]
     },
