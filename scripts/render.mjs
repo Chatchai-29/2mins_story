@@ -5,9 +5,15 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { readFile, mkdir, rm, cp } from "node:fs/promises";
 import { existsSync } from "node:fs";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { resolve, join } from "node:path";
-import { DIRS, ROOT } from "./config.mjs";
+import { homedir } from "node:os";
+import { DIRS, ROOT, WINDOWS_STAGING_ROOT } from "./config.mjs";
 import { logEvent } from "./log.mjs";
+
+const execFileAsync = promisify(execFile);
+const FFMPEG = join(homedir(), ".local/bin/ffmpeg");
 
 async function attachWordTimestamps(shotList, publicDir) {
   for (const scene of shotList.scenes) {
@@ -17,6 +23,42 @@ async function attachWordTimestamps(shotList, publicDir) {
     }
   }
   return shotList;
+}
+
+// ความยาว scene จริง (นับรวมส่วนที่ยืดออกถ้าเสียงพากย์ยาวกว่าคลิปวิดีโอต้นฉบับ) — สูตรเดียวกับ
+// effectiveDurationSec ใน remotion/VideoComposition.tsx เป๊ะ (คนละภาษา ต้องคงสูตรให้ตรงกันเอง)
+function effectiveDurationSec(scene) {
+  const narrationEndSec = scene.words?.length
+    ? scene.words[scene.words.length - 1].end + 0.3
+    : 0;
+  return Math.max(scene.duration_sec, narrationEndSec);
+}
+
+// รวมไฟล์ narration-N.mp3 ของทุก scene เป็นแทร็กเดียว โดยหน่วงเวลาแต่ละไฟล์ให้เริ่มตรงจุดที่ scene
+// นั้นเริ่มจริงในวิดีโอสุดท้าย (cursor เดียวกับที่ Remotion ใช้วาง Sequence) — ได้ไฟล์เสียงพากย์ล้วน
+// (ไม่มี SFX ปน) ที่ sync ตรงกับวิดีโอเป๊ะ ไว้เอาไปพากย์ภาษาอื่น/แก้ไขนอกไปป์ไลน์ได้ง่าย
+async function exportNarrationTrack(shotList, audioDir, outPath, totalSec) {
+  const args = ["-y", "-nostdin", "-loglevel", "error"];
+  const narrations = [];
+  let cursorSec = 0;
+  for (const scene of shotList.scenes) {
+    const path = join(audioDir, `narration-${scene.scene}.mp3`);
+    if (existsSync(path)) narrations.push({ path, delayMs: Math.round(cursorSec * 1000) });
+    cursorSec += effectiveDurationSec(scene);
+  }
+  if (!narrations.length) return null;
+
+  for (const n of narrations) args.push("-i", n.path);
+  const parts = narrations.map((n, i) => {
+    const delay = n.delayMs > 0 ? `adelay=${n.delayMs}:all=1,` : "";
+    return `[${i}:a]${delay}apad=whole_dur=${totalSec}[a${i}]`;
+  });
+  const labels = narrations.map((_, i) => `[a${i}]`).join("");
+  parts.push(`${labels}amix=inputs=${narrations.length}:normalize=0,atrim=0:${totalSec}[out]`);
+  args.push("-filter_complex", parts.join(";"), "-map", "[out]", "-c:a", "libmp3lame", outPath);
+
+  await execFileAsync(FFMPEG, args);
+  return outPath;
 }
 
 const file = process.argv[2];
@@ -65,9 +107,44 @@ await renderMedia({
 });
 
 console.log(`\n✅ วิดีโอเสร็จ: ${outPath}`);
+
+// 3) แยกไฟล์เสียงพากย์ล้วน (ไม่มี SFX ปน) ออกมาเป็นแทร็กเดียว sync ตรงกับ timeline ของวิดีโอสุดท้าย —
+// ตั้งค่าถาวรของ pipeline (2026-08-31) ทำทุกครั้งที่ render วิดีโอเต็ม ไว้เอาไปพากย์ภาษาอื่น/แก้ไขนอกไปป์ไลน์
+const totalSec = shotList.scenes.reduce((s, sc) => s + effectiveDurationSec(sc), 0);
+const narrationTrackPath = join(videoDir, "narration-track.mp3");
+const narrationTrack = await exportNarrationTrack(
+  shotList,
+  join(publicDir, "audio"),
+  narrationTrackPath,
+  totalSec
+);
+if (narrationTrack) console.log(`✅ แยกเสียงพากย์เสร็จ → ${narrationTrack}`);
+
+// 4) copy final.mp4 + narration-track.mp3 ไปโฟลเดอร์ Preview บน Windows staging ด้วย ถ้าชอตลิสต์ระบุ
+// windows_preview_dir ไว้ — ผู้ใช้เปิดดู/ใช้งานจาก File Explorer ตรงๆ ได้ ไม่ต้องผ่าน \\wsl.localhost\...
+// (บั๊กที่เจอจริง 2026-08-29: final.mp4 อยู่แค่ใน WSL output/ เท่านั้น ไม่เคย mirror มาที่
+// AI VIdeo test/<set>/Preview/ ตามที่ตั้งใจไว้เดิม)
+let previewPath = null;
+let narrationPreviewPath = null;
+if (shotList.windows_preview_dir) {
+  const previewDir = join(WINDOWS_STAGING_ROOT, shotList.windows_preview_dir, "Preview");
+  await mkdir(previewDir, { recursive: true });
+  previewPath = join(previewDir, outputName);
+  await cp(outPath, previewPath);
+  console.log(`✅ copy พรีวิวไป Windows: ${previewPath}`);
+  if (narrationTrack) {
+    narrationPreviewPath = join(previewDir, "narration-track.mp3");
+    await cp(narrationTrack, narrationPreviewPath);
+    console.log(`✅ copy เสียงพากย์ไป Windows: ${narrationPreviewPath}`);
+  }
+}
+
 await logEvent("pipeline", `render วิดีโอสุดท้าย (${shotList.video_id})`, {
   video_id: shotList.video_id,
   scenes: shotList.scenes.length,
   total_duration_sec: shotList.total_duration_sec,
+  narrationTrack,
+  narrationPreviewPath,
   output: outPath,
+  previewPath,
 });
