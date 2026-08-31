@@ -1,0 +1,96 @@
+{
+  "video_id": "four-moons",
+  "title": "Four Moons",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 112,
+  "background_music": "",
+  "windows_preview_dir": "Choice/Four Moons",
+  "keep_clip_audio": true,
+  "note": "คลิปวิดีโอเจนมาแล้วจากที่อื่น ไม่ผ่าน gen-video-evolink.mjs — วางไว้ที่ output/four-moons/clips/ ตรงๆ (ชื่อไฟล์ต้นฉบับชัดเจนไม่กำกวม: THE HOOK / MOON N.M / THE FINAL CHOICE). ตามคำสั่งผู้ใช้: ไม่ใส่ SFX แยก, เก็บเสียงเดิมของคลิปไว้ (keep_clip_audio=true, เล่นที่ 30%)",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 8,
+      "narration": "Tonight, four moons have appeared in the sky. Each one grants a different blessing. One gives you endless wealth. One gives you eternal youth. One gives you absolute power. And the last one… grants a wish. Which moon would you choose?",
+      "emphasis_words": ["wealth", "youth", "power", "wish"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 8,
+      "narration": "Moon One: The Golden Moon. Everything you touch becomes gold.",
+      "emphasis_words": ["Golden", "gold"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 8,
+      "narration": "Within a year, you're unimaginably rich. Your mansion becomes a palace. You never worry about money again.",
+      "emphasis_words": ["rich", "palace"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 8,
+      "narration": "Then one morning, you touch someone you love. And they turn to gold too.",
+      "emphasis_words": ["love", "gold"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 8,
+      "narration": "Moon Two: The Silver Moon. You will never grow old.",
+      "emphasis_words": ["Silver", "never"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 8,
+      "narration": "Fifty years pass. Everyone around you grows older. You don't change at all.",
+      "emphasis_words": ["Fifty", "older"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 8,
+      "narration": "A hundred years later… you finally understand. The moon didn't stop your aging. It stopped your death.",
+      "emphasis_words": ["aging", "death"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 8,
+      "narration": "Moon Three: The Crimson Moon. It gives you power over everything beneath it.",
+      "emphasis_words": ["Crimson", "power"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 8,
+      "narration": "Kings kneel before you. Armies obey you. Even nature bends to your command.",
+      "emphasis_words": ["kneel", "obey"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 8,
+      "narration": "But eventually… you notice something terrifying. The moon isn't obeying you. It's controlling you.",
+      "emphasis_words": ["terrifying", "controlling"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 8,
+      "narration": "Moon Four: The Black Moon. It grants exactly one wish. Anything you want.",
+      "emphasis_words": ["Black", "wish"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 8,
+      "narration": "You wish for the perfect life. The next morning… you get it. Perfect family. Perfect health. Perfect happiness.",
+      "emphasis_words": ["perfect"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 8,
+      "narration": "Then you look at the night sky. The Black Moon is gone. So you ask: \"What did it cost?\" A voice behind you answers: \"Nothing.\" \"You were the cost.\"",
+      "emphasis_words": ["gone", "cost"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 8,
+      "narration": "Gold gives you endless wealth. Silver gives you eternal youth. Crimson gives you absolute power. And Black gives you one perfect wish. But every moon takes something in return. Which one would you choose?",
+      "emphasis_words": ["wealth", "youth", "power", "wish", "takes"]
+    }
+  ]
+}

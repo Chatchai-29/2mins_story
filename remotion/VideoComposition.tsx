@@ -36,6 +36,10 @@ export type ShotList = {
   background_music: string;
   // ความดัง SFX ต่อ scene (0-1) — ไม่ระบุ = ค่าเริ่มต้น 0.1 (10%)
   sfx_volume?: number;
+  // true = ไม่ mute เสียงที่ฝังมากับคลิปวิดีโอเอง (ค่าเริ่มต้น mute เสมอ เพราะคลิปที่เจนเองผ่าน
+  // Seedance ไม่มีเสียงอยู่แล้ว และคลิปสำเร็จรูปจากที่อื่นส่วนใหญ่มีเสียงพากย์/บทพูดฝังมาที่ไม่ต้องการ
+  // ให้ทับกับ narration ที่เจนแยก) — ใช้ true เฉพาะตอนอยากเก็บเสียง ambient/SFX เดิมของคลิปไว้จริงๆ
+  keep_clip_audio?: boolean;
   scenes: Scene[];
 };
 
@@ -55,7 +59,10 @@ export const totalDurationSec = (scenes: Scene[]): number =>
   scenes.reduce((sum, scene) => sum + effectiveDurationSec(scene), 0);
 
 // pan-zoom ช้าๆ ต่อ scene (ตาม CLAUDE.md: motion ต่ำ ใช้ pan/zoom ช้า)
-const SceneClip: React.FC<{ scene: Scene }> = ({ scene }) => {
+const SceneClip: React.FC<{ scene: Scene; keepClipAudio?: boolean }> = ({
+  scene,
+  keepClipAudio,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const frames = scene.duration_sec * fps;
@@ -66,7 +73,8 @@ const SceneClip: React.FC<{ scene: Scene }> = ({ scene }) => {
     <AbsoluteFill>
       <OffthreadVideo
         src={staticFile(`clips/scene-${scene.scene}.mp4`)}
-        muted
+        muted={!keepClipAudio}
+        volume={keepClipAudio ? 0.3 : undefined}
         style={{ transform: `scale(${scale})`, width: "100%", height: "100%" }}
       />
     </AbsoluteFill>
@@ -212,7 +220,7 @@ export const VideoComposition: React.FC<ShotList> = (shotList) => {
             {scene.reuse_video_of ? (
               <ClimaxEffectClip sourceScene={scene.reuse_video_of} />
             ) : (
-              <SceneClip scene={scene} />
+              <SceneClip scene={scene} keepClipAudio={shotList.keep_clip_audio} />
             )}
             {scene.sfx_prompt ? (
               <Audio src={staticFile(`audio/sfx-${scene.scene}.mp3`)} volume={shotList.sfx_volume ?? 0.1} />
