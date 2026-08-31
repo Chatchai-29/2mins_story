@@ -1,0 +1,109 @@
+{
+  "video_id": "four-books",
+  "title": "Four Books",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 112,
+  "background_music": "",
+  "windows_preview_dir": "Choice/FOUR BOOKS",
+  "note": "คลิปวิดีโอเจนมาแล้วจากที่อื่น ไม่ผ่าน gen-video-evolink.mjs — วางไว้ที่ output/four-books/clips/ ตรงๆ (ชื่อไฟล์ต้นฉบับชัดเจนไม่กำกวม: SCENE 1 — THE HOOK / BOOK N.M / THE FINAL CHOICE)",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 8,
+      "narration": "You find four books inside a room that shouldn't exist. Each book contains a secret no human was meant to know. One reveals the future. One reveals every secret. One can rewrite the past. And one… can rewrite reality itself. Which book would you open?",
+      "sfx_prompt": "low mystical drone, faint page rustling",
+      "emphasis_words": ["future", "secret", "past", "reality"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 8,
+      "narration": "Book One: The Book of Tomorrow. Every page shows something that hasn't happened yet.",
+      "sfx_prompt": "golden magical hum, faint page turning",
+      "emphasis_words": ["Tomorrow"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 8,
+      "narration": "You read about tomorrow's lottery numbers. Tomorrow's disasters. Even the exact moment someone will betray you. You become impossible to surprise.",
+      "sfx_prompt": "shimmering golden chime, rapid page flipping",
+      "emphasis_words": ["betray", "surprise"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 8,
+      "narration": "But one page always remains blank. Your own future. Until one night… it finally writes something. \"Tomorrow, you will stop reading.\"",
+      "sfx_prompt": "quill scratching, low dread drone",
+      "emphasis_words": ["blank", "stop reading"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 8,
+      "narration": "Book Two: The Book of Truth. Read one page… and every lie becomes visible.",
+      "sfx_prompt": "violet psychic hum, faint whisper",
+      "emphasis_words": ["Truth", "lie"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 8,
+      "narration": "You discover who is lying to you. Who secretly hates you. Who betrayed you. Soon, there is nothing anyone can hide from you.",
+      "sfx_prompt": "overlapping whisper chorus, subtle psychic chime",
+      "emphasis_words": ["lying", "hates", "hide"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 8,
+      "narration": "Then you open a page about yourself. And discover the worst secret of all. You were never supposed to be here.",
+      "sfx_prompt": "dissonant reality-warp tone, faint gasp",
+      "emphasis_words": ["worst secret", "never"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 8,
+      "narration": "Book Three: The Book of Yesterday. This one gives you something even more dangerous. A second chance.",
+      "sfx_prompt": "blue temporal hum, faint ticking",
+      "emphasis_words": ["Yesterday", "dangerous"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 8,
+      "narration": "You rewrite your biggest mistake. The person you lost comes back. The accident never happens. Your entire life becomes perfect.",
+      "sfx_prompt": "warm nostalgic swell, soft temporal chime",
+      "emphasis_words": ["lost", "perfect"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 8,
+      "narration": "But changing one moment changes everything after it. You return to the present… and nobody remembers you.",
+      "sfx_prompt": "unsettling silence, faint ghostly echo",
+      "emphasis_words": ["everything", "nobody"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 8,
+      "narration": "Book Four: The Book of Creation. This book has only one rule. Whatever you write becomes real.",
+      "sfx_prompt": "deep ominous heartbeat pulse, cold black energy hiss",
+      "emphasis_words": ["Creation", "real"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 8,
+      "narration": "You write for money. It appears. You write for power. You receive it. You write one final sentence: \"I will never die.\"",
+      "sfx_prompt": "quill scratching intensely, rising ominous hum",
+      "emphasis_words": ["power", "never die"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 8,
+      "narration": "The moment you finish the sentence… another sentence appears underneath it. \"You will never die.\" \"Because I need you to keep writing.\"",
+      "sfx_prompt": "deep pulsing heartbeat drone, faint quill scratching on its own",
+      "emphasis_words": ["never die", "keep writing"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 8,
+      "narration": "One book lets you see tomorrow. One lets you know every secret. One lets you rewrite yesterday. And one lets you rewrite reality. But there is a reason these books were hidden. Some knowledge is better left unread. So… Which book would you open?",
+      "sfx_prompt": "layered ominous drone, heavy page rustling",
+      "emphasis_words": ["hidden", "unread", "open"]
+    }
+  ]
+}
