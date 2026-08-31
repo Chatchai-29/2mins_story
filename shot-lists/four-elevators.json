@@ -1,0 +1,108 @@
+{
+  "video_id": "four-elevators",
+  "title": "Four Elevators",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 140,
+  "background_music": "",
+  "note": "คลิปวิดีโอเจนมาแล้วจากที่อื่น ไม่ผ่าน gen-video-evolink.mjs — วางไว้ที่ output/four-elevators/clips/ ตรงๆ",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 10,
+      "narration": "You wake up in an elevator lobby you've never seen before. There are four elevators. Each one has only one button. Heaven. Hell. The Future. And Floor Zero. A voice tells you… \"Choose one. You only get one chance.\"",
+      "sfx_prompt": "low ominous drone, distant echoing voice",
+      "emphasis_words": ["Heaven", "Hell", "Future", "Zero", "chance"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 10,
+      "narration": "Elevator One: Heaven. The doors open to a blinding golden light.",
+      "sfx_prompt": "warm golden chime, soft heavenly hum",
+      "emphasis_words": ["Heaven"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 10,
+      "narration": "Inside, you find everyone you've ever loved. They're young again. They're waiting for you. And for the first time in years… you're truly happy.",
+      "sfx_prompt": "warm orchestral swell, gentle laughter",
+      "emphasis_words": ["loved", "happy"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 10,
+      "narration": "Then you notice something strange. Nobody there has a shadow. And suddenly… the elevator doors close behind you.",
+      "sfx_prompt": "unsettling silence, distant elevator door thud",
+      "emphasis_words": ["shadow", "close"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 10,
+      "narration": "Elevator Two: Hell. A warning appears on the door: \"You may leave with anything you want.\"",
+      "sfx_prompt": "roaring flames, deep demonic groan",
+      "emphasis_words": ["Hell", "anything"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 10,
+      "narration": "You enter. The elevator takes you deep underground. When the doors open, you're given one thing: everything you've ever wanted.",
+      "sfx_prompt": "low lava rumble, glinting treasure chime",
+      "emphasis_words": ["underground", "everything"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 10,
+      "narration": "There's just one problem. You have to stay and guard it forever.",
+      "sfx_prompt": "heavy chains rattling, distant gate slam",
+      "emphasis_words": ["forever"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 10,
+      "narration": "Elevator Three: The Future. This one has only one rule: You cannot change what you see.",
+      "sfx_prompt": "cold digital hum, futuristic countdown beep",
+      "emphasis_words": ["Future", "cannot"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 10,
+      "narration": "The doors open. You see your entire life. Your career. Your family. Your old age. Everything is perfect.",
+      "sfx_prompt": "bright digital whoosh, soft orchestral swell",
+      "emphasis_words": ["perfect"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 10,
+      "narration": "Then you see the final moment. You're standing alone in this exact elevator lobby. Looking at four elevators. And then you realize… You've already chosen this one before.",
+      "sfx_prompt": "eerie digital echo, glitching static loop",
+      "emphasis_words": ["realize", "before"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 10,
+      "narration": "Elevator Four: Floor Zero. There is no warning. No explanation. Just one button. Zero.",
+      "sfx_prompt": "dead silence, faint black mist hiss",
+      "emphasis_words": ["Zero"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 10,
+      "narration": "You press it. The elevator doesn't go up. It doesn't go down. The numbers simply disappear.",
+      "sfx_prompt": "soft button click, low unnerving drone",
+      "emphasis_words": ["disappear"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 10,
+      "narration": "Finally, the doors open. There's no room outside. No hallway. No building. Just darkness. Then a voice behind you whispers: \"You finally made it back.\"",
+      "sfx_prompt": "cold void wind, faint whispered voice",
+      "emphasis_words": ["darkness", "back"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 10,
+      "narration": "Heaven gives you everything… but you can never leave. Hell gives you everything you want… but you must guard it forever. The Future shows you everything… but you can't change it. And Floor Zero? It was never a destination. It was where you came from. So… Which elevator are you taking?",
+      "sfx_prompt": "heavy ticking countdown, layered ominous drone",
+      "emphasis_words": ["never", "forever", "change", "taking"]
+    }
+  ]
+}
