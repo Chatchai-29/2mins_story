@@ -34,6 +34,9 @@ Full automation ผ่าน Claude Code: เขียนสคริปต์/s
 
 ## เสียง
 - ElevenLabs API (env var `ELEVENLABS_API_KEY`), แผน Creator
+- เสียงพากย์เริ่มต้น (base voice ทุกโปรเจกต์ใหม่ ตั้งแต่ 2026-08-31): "Adam" voice_id `wBXNqKUATyqu0RtYt25i`
+  (professional voice จาก Voice Lab ของผู้ใช้เอง — คนละตัวกับ "Adam" ใน library เดิม `pNInz6obpgDQGcFmaJgB` ที่เคยใช้)
+  override ต่อวิดีโอได้ผ่านฟิลด์ `voice_id` ใน shot list
 - Music: ใช้ Eleven Music v2 สร้างเพลงคลอ 1 เพลงต่อวิดีโอ ความยาวเท่าคลิป
 - Sound effects: ต่อ scene ความยาวสั้น (≤5 วิ) ให้ตรงกับจังหวะการเคลื่อนไหวในภาพ
 - ไม่ต้องเรียก Text-to-Speech เว้นแต่จะระบุไว้ชัดเจนว่าวิดีโอนั้นต้องมีเสียงพากย์
