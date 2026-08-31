@@ -34,6 +34,8 @@ export type ShotList = {
   total_duration_sec: number;
   aspect_ratio: string;
   background_music: string;
+  // ความดัง SFX ต่อ scene (0-1) — ไม่ระบุ = ค่าเริ่มต้น 0.1 (10%)
+  sfx_volume?: number;
   scenes: Scene[];
 };
 
@@ -64,6 +66,7 @@ const SceneClip: React.FC<{ scene: Scene }> = ({ scene }) => {
     <AbsoluteFill>
       <OffthreadVideo
         src={staticFile(`clips/scene-${scene.scene}.mp4`)}
+        muted
         style={{ transform: `scale(${scale})`, width: "100%", height: "100%" }}
       />
     </AbsoluteFill>
@@ -94,6 +97,7 @@ const ClimaxEffectClip: React.FC<{ sourceScene: number }> = ({ sourceScene }) =>
     <AbsoluteFill>
       <OffthreadVideo
         src={staticFile(`clips/scene-${sourceScene}.mp4`)}
+        muted
         style={{
           transform: `scale(${scale}) translate(${shakeX}px, ${shakeY}px)`,
           width: "100%",
@@ -211,7 +215,7 @@ export const VideoComposition: React.FC<ShotList> = (shotList) => {
               <SceneClip scene={scene} />
             )}
             {scene.sfx_prompt ? (
-              <Audio src={staticFile(`audio/sfx-${scene.scene}.mp3`)} volume={0.1} />
+              <Audio src={staticFile(`audio/sfx-${scene.scene}.mp3`)} volume={shotList.sfx_volume ?? 0.1} />
             ) : null}
             {scene.narration ? (
               <Audio src={staticFile(`audio/narration-${scene.scene}.mp3`)} />
