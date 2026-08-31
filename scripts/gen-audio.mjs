@@ -129,10 +129,18 @@ export async function generateNarration(videoId, scene, voiceId = ELEVENLABS_VOI
 if (import.meta.url === `file://${process.argv[1]}`) {
   const file = process.argv[2];
   if (!file) {
-    console.error("ใช้: node scripts/gen-audio.mjs shot-lists/<file>.json");
+    console.error("ใช้: node scripts/gen-audio.mjs shot-lists/<file>.json [--from <sceneNumber>]");
     process.exit(1);
   }
+  // --from N ไว้ resume ต่อหลังชนปัญหากลางทาง (เช่น ElevenLabs 429 rate limit) โดยไม่ต้องเจน scene
+  // ที่ทำสำเร็จไปแล้วซ้ำ (เจอจริง 2026-08-31 กับ four-books)
+  const fromFlagIdx = process.argv.indexOf("--from");
+  const fromScene = fromFlagIdx !== -1 ? Number(process.argv[fromFlagIdx + 1]) : null;
   const s = JSON.parse(await readFile(resolve(file), "utf8"));
+  if (fromScene) {
+    s.scenes = s.scenes.filter((sc) => sc.scene >= fromScene);
+    console.log(`--from ${fromScene}: จะเจนต่อจาก scene ${fromScene} เป็นต้นไป (${s.scenes.length} scene)`);
+  }
   if (!s.background_music) {
     console.warn("⚠️  ข้ามเพลงคลอ: shot list ไม่มี background_music prompt — SFX/narration ทำต่อได้ปกติ");
   } else {
@@ -146,10 +154,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       } else throw e;
     }
   }
+  // เสียงพากย์เลือก voice ได้ต่อวิดีโอผ่านฟิลด์ "voice_id" ใน shot list (ไม่ระบุ = ค่าเริ่มต้น ELEVENLABS_VOICE_ID)
+  // เอาไว้ให้แต่ละโปรเจกต์มีเสียงต่างกันบ้าง ไม่ต้องซ้ำเสียงเดิมทุกคลิป
   const overflowScenes = [];
   for (const scene of s.scenes) {
     await generateSfx(s.video_id, scene);
-    const result = await generateNarration(s.video_id, scene);
+    const result = await generateNarration(s.video_id, scene, s.voice_id);
     if (result?.overflow) overflowScenes.push(scene.scene);
   }
   console.log("\n✅ เจนเสียง (SFX + narration) เสร็จ");
