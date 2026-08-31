@@ -15,6 +15,21 @@ import { logEvent } from "./log.mjs";
 const execFileAsync = promisify(execFile);
 const FFMPEG = join(homedir(), ".local/bin/ffmpeg");
 
+// หา path โฟลเดอร์ Preview บน Windows staging — ใช้ windows_preview_dir ถ้าชอตลิสต์ระบุไว้ตรงๆ
+// ไม่งั้นเดาจาก source_image ของ scene แรกที่มีภาพ (เช่น "Horror story/X/Image 01.png" ->
+// "Horror story/X") ใช้ได้กับเกือบทุกโปรเจกต์เพราะ source_image อยู่ใต้โฟลเดอร์ set/โปรเจกต์เสมอ —
+// ตั้งใจให้ mirror ไป Windows เกิดขึ้นเองทุกครั้งโดยไม่ต้องจำใส่ field นี้เอง (2026-08-31)
+// โปรเจกต์ที่ใช้คลิปสำเร็จรูป (ไม่มี source_image เลย เช่น Four Elevators/Four Rings) เดาไม่ได้
+// ต้องใส่ windows_preview_dir ตรงๆ ใน shot list เอง — ถ้าไม่ใส่จะ warn ชัดเจนตอน render แทนที่จะเงียบ
+function derivePreviewDir(shotList) {
+  if (shotList.windows_preview_dir) return shotList.windows_preview_dir;
+  const withImage = shotList.scenes.find((s) => s.source_image);
+  if (!withImage) return null;
+  const parts = withImage.source_image.split("/");
+  parts.pop();
+  return parts.join("/");
+}
+
 async function attachWordTimestamps(shotList, publicDir) {
   for (const scene of shotList.scenes) {
     const wordsPath = join(publicDir, "audio", `narration-${scene.scene}.words.json`);
@@ -120,14 +135,15 @@ const narrationTrack = await exportNarrationTrack(
 );
 if (narrationTrack) console.log(`✅ แยกเสียงพากย์เสร็จ → ${narrationTrack}`);
 
-// 4) copy final.mp4 + narration-track.mp3 ไปโฟลเดอร์ Preview บน Windows staging ด้วย ถ้าชอตลิสต์ระบุ
-// windows_preview_dir ไว้ — ผู้ใช้เปิดดู/ใช้งานจาก File Explorer ตรงๆ ได้ ไม่ต้องผ่าน \\wsl.localhost\...
+// 4) copy final.mp4 + narration-track.mp3 ไปโฟลเดอร์ Preview บน Windows staging ด้วยเสมอ (ตั้งค่าถาวร
+// 2026-08-31 — ผู้ใช้เปิดดู/ใช้งานจาก File Explorer ตรงๆ ได้ ไม่ต้องผ่าน \\wsl.localhost\...)
 // (บั๊กที่เจอจริง 2026-08-29: final.mp4 อยู่แค่ใน WSL output/ เท่านั้น ไม่เคย mirror มาที่
 // AI VIdeo test/<set>/Preview/ ตามที่ตั้งใจไว้เดิม)
+const previewDirRel = derivePreviewDir(shotList);
 let previewPath = null;
 let narrationPreviewPath = null;
-if (shotList.windows_preview_dir) {
-  const previewDir = join(WINDOWS_STAGING_ROOT, shotList.windows_preview_dir, "Preview");
+if (previewDirRel) {
+  const previewDir = join(WINDOWS_STAGING_ROOT, previewDirRel, "Preview");
   await mkdir(previewDir, { recursive: true });
   previewPath = join(previewDir, outputName);
   await cp(outPath, previewPath);
@@ -137,6 +153,11 @@ if (shotList.windows_preview_dir) {
     await cp(narrationTrack, narrationPreviewPath);
     console.log(`✅ copy เสียงพากย์ไป Windows: ${narrationPreviewPath}`);
   }
+} else {
+  console.warn(
+    "⚠️  ไม่ได้ mirror ไป Windows — เดา windows_preview_dir จาก source_image ไม่ได้ (โปรเจกต์นี้ใช้คลิปสำเร็จรูป) " +
+      "ใส่ \"windows_preview_dir\" ใน shot list ตรงๆ แล้ว render ใหม่ ถ้าต้องการให้ mirror"
+  );
 }
 
 await logEvent("pipeline", `render วิดีโอสุดท้าย (${shotList.video_id})`, {

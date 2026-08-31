@@ -47,9 +47,13 @@ Full automation ผ่าน Claude Code: เขียนสคริปต์/s
 - ตั้ง canvas/composition เป็น 1080p ให้ตรงกับความละเอียดคลิปต้นฉบับเสมอ ห้ามปล่อยให้ต่ำกว่าแล้วบีบทิ้งความคมชัด
 - **ตั้งค่าถาวร (2026-08-31): ทุกครั้งที่ `render.mjs` render วิดีโอเต็ม จะแยกไฟล์เสียงพากย์ล้วน (ไม่มี SFX ปน)
   ออกมาเป็น `narration-track.mp3` โดยอัตโนมัติ** — sync timeline ตรงกับวิดีโอสุดท้ายเป๊ะ (คำนวณจาก cursor/
-  effectiveDurationSec เดียวกับที่ใช้วาง Sequence ใน Remotion) ไว้ให้เอาไปพากย์ภาษาอื่น/แก้ไขนอกไปป์ไลน์ได้
-  ง่าย — ถ้าชอตลิสต์มี `windows_preview_dir` ระบุไว้ ทั้ง `final.mp4` และ `narration-track.mp3` จะถูก copy ไป
-  โฟลเดอร์ `Preview` ใต้ path นั้นบน Windows staging ให้อัตโนมัติเหมือนกัน
+  effectiveDurationSec เดียวกับที่ใช้วาง Sequence ใน Remotion) ไว้ให้เอาไปพากย์ภาษาอื่น/แก้ไขนอกไปป์ไลน์ได้ง่าย
+- **ตั้งค่าถาวร (2026-08-31): ทุกครั้งที่ render วิดีโอเต็ม `final.mp4` + `narration-track.mp3` จะถูก copy ไป
+  โฟลเดอร์ `Preview` บน Windows staging ให้อัตโนมัติเสมอ ไม่ต้องใส่ config เพิ่ม** — ระบบเดา path ปลายทางจาก
+  `source_image` ของ scene แรกที่มีภาพเอง (เช่น `"Horror story/X/Image 01.png"` → mirror ไปที่
+  `Horror story/X/Preview/`) ใส่ `windows_preview_dir` ใน shot list ตรงๆ ได้ถ้าอยากบังคับ path เอง — จำเป็น
+  เฉพาะโปรเจกต์ที่ใช้คลิปสำเร็จรูปไม่มี `source_image` เลย (เช่น import คลิปจากที่อื่นมาแทน) เพราะระบบเดา
+  ไม่ได้ ถ้าลืมใส่จะเห็น warning ตอน render แทนที่จะเงียบหายไป
 
 ## จุดที่ต้องหยุดรอ approve (checkpoint บังคับ)
 หยุดหลังเจนคลิปวิดีโอครบทุก scene แล้ว **ก่อน**เข้าสู่ขั้น Remotion assembly
