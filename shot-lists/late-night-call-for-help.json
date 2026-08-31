@@ -3,6 +3,7 @@
   "title": "Late Night Call for Help",
   "aspect_ratio": "9:16",
   "total_duration_sec": 73,
+  "windows_preview_dir": "Horror story/Late Night Call for Help",
   "provider": "evolink",
   "model": "seedance-1.0-pro-fast",
   "scenes": [

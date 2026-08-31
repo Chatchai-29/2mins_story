@@ -4,6 +4,7 @@
   "aspect_ratio": "9:16",
   "total_duration_sec": 140,
   "background_music": "",
+  "windows_preview_dir": "Choice/FOUR ELEVATORS",
   "note": "คลิปวิดีโอเจนมาแล้วจากที่อื่น ไม่ผ่าน gen-video-evolink.mjs — วางไว้ที่ output/four-elevators/clips/ ตรงๆ",
   "scenes": [
     {

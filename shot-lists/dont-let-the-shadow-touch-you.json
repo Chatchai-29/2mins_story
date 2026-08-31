@@ -4,6 +4,7 @@
   "aspect_ratio": "9:16",
   "total_duration_sec": 64,
   "background_music": "",
+  "windows_preview_dir": "Horror story/Don't Let the Shadow Touch You",
   "provider": "evolink",
   "model": "seedance-1.0-pro-fast",
   "scenes": [
