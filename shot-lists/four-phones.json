@@ -1,0 +1,151 @@
+{
+  "video_id": "four-phones",
+  "title": "Four Phones",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 116,
+  "background_music": "",
+  "provider": "evolink",
+  "model": "seedance-1.0-pro-fast",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 12,
+      "source_image": "Choice/Four Phones/Image 01.png",
+      "narration": "Four phones are sitting on this table. Each one can make only one call. One calls your past. One calls your future. One calls the dead. And the last one… calls yourself.",
+      "image_prompt": "Cinematic establishing shot of a mysterious dark room with a large antique black table in the center, four different smartphones placed perfectly in a row on the table, each phone displaying a different mysterious symbol: a rewind symbol, a glowing clock, a skull, and a human eye. A single overhead light illuminates the phones while the rest of the room disappears into darkness, faint supernatural mist surrounding the table, mysterious psychological horror atmosphere, realistic cinematic lighting, highly detailed, Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Wide establishing shot of four phones glowing faintly in a dark room. Overhead light flickers subtly, mist drifts slowly across the table, each phone's symbol pulses gently in turn. Slow cinematic push-in toward the row of phones.",
+      "sfx_prompt": "low ominous drone, faint electronic phone hum",
+      "emphasis_words": ["past", "future", "dead", "yourself"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 02.png",
+      "narration": "Phone One calls the past. You can speak to yourself at any moment in your life.",
+      "image_prompt": "Extreme close-up of the first smartphone on the mysterious black table, its screen displaying an impossible date from ten years in the past, glowing rewind symbol on the screen, faint golden temporal particles floating around it, an adult hand reaching toward the phone, dark room in the background, subtle time distortion bending the air around the device, cinematic supernatural mystery, highly detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Extreme close-up on the first phone, golden temporal particles drifting slowly around it. A hand slowly reaches toward the glowing rewind symbol. Slow, deliberate push-in as the particles swirl.",
+      "sfx_prompt": "ticking clock reversing, faint golden chime",
+      "emphasis_words": ["past"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 8,
+      "source_image": "Choice/Four Phones/Image 03.png",
+      "narration": "You call yourself ten years ago. You warn yourself about every mistake you're about to make. Your entire life changes.",
+      "image_prompt": "Cinematic split-time visual showing the same person at two different ages communicating through a glowing smartphone across time, younger version sitting in a bedroom ten years earlier while older version appears through a supernatural holographic phone connection, old photographs and memories floating around them, warm nostalgic lighting mixed with mysterious blue temporal energy, emotional cinematic atmosphere, realistic characters, highly detailed Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Split-time scene, the younger self listening intently as the holographic older self speaks, photographs slowly floating and rotating between them. Slow orbiting camera drift around the two versions.",
+      "sfx_prompt": "warm nostalgic chime, faint temporal warble",
+      "emphasis_words": ["warn", "changes"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 04.png",
+      "narration": "But… when you return to the present… everyone remembers you differently. Except you.",
+      "image_prompt": "Psychological horror scene inside a modern family home, an adult person standing confused among family members who look at them like complete strangers, framed photographs on the wall showing a completely different person instead of them, the protagonist staring at their own distorted reflection in a mirror, subtle temporal glitches across the room, eerie silence, unsettling atmosphere, cinematic realism, highly detailed Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "The protagonist slowly turns toward the mirror, their reflection subtly glitching and distorting. Family members in the background stand unnaturally still, staring. Slow, unsettling push-in on the distorted reflection.",
+      "sfx_prompt": "unsettling silence, faint digital glitch static",
+      "emphasis_words": ["differently", "Except"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 05.png",
+      "narration": "Phone Two calls the future. You can speak to yourself ten years from now.",
+      "image_prompt": "Extreme close-up of the second smartphone glowing with cold blue-white light, the screen displaying a futuristic date ten years ahead, digital clock symbols and strange futuristic interface elements surrounding the phone, a hand hovering above the device, dark mysterious room, faint particles suspended in the air, cinematic science-fiction horror atmosphere, ultra-detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Extreme close-up on the second phone, cold blue-white light pulsing steadily. Digital interface elements slowly rotate around it as a hand hovers closer. Slow push-in as the glow intensifies.",
+      "sfx_prompt": "cold digital hum, futuristic interface beep",
+      "emphasis_words": ["future"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 9,
+      "source_image": "Choice/Four Phones/Image 06.png",
+      "narration": "You ask your future self one question. \"What should I do to become successful?\" The answer is simple. \"Do exactly what I did.\"",
+      "image_prompt": "Dark cinematic scene of an adult person speaking to an older version of themselves through a glowing smartphone, the older version appearing as a realistic holographic projection with tired eyes and an expression of regret, futuristic apartment visible behind the older version, cold blue lighting, mysterious digital interference, emotional psychological thriller atmosphere, highly detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "The older holographic self speaks slowly, faint digital interference flickering across the projection, tired eyes barely blinking. Slow push-in on the older self's regretful expression.",
+      "sfx_prompt": "digital interference crackle, low melancholic tone",
+      "emphasis_words": ["successful", "exactly"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 9,
+      "source_image": "Choice/Four Phones/Image 07.png",
+      "narration": "Then you ask your future self one more question. \"Are you happy?\" He looks at you and whispers… \"That's why I called you.\"",
+      "image_prompt": "Extreme close-up psychological horror shot of the older future version staring directly through the smartphone screen, terrified eyes filled with desperation, his face partially distorted by digital interference, dark empty room behind him, subtle silhouette of an unknown figure standing behind his shoulder, the younger person watching in horror from the foreground, cold blue cinematic lighting, intense suspense, highly detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Extreme close-up on the older self's terrified eyes, digital interference distorting his face in pulses. The silhouette behind him shifts almost imperceptibly. Slow, dread-filled push-in.",
+      "sfx_prompt": "tense digital distortion, faint whispered echo",
+      "emphasis_words": ["happy", "called"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 08.png",
+      "narration": "Phone Three calls the dead. You can speak to anyone who has ever died.",
+      "image_prompt": "Extreme close-up of the third smartphone on the black table, its screen completely black except for a glowing white skull symbol, faint ghostly fingerprints appearing across the glass from the inside, pale mist flowing around the device, dark supernatural atmosphere, subtle silhouettes barely visible in the background, cinematic horror lighting, highly detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Extreme close-up on the third phone, the glowing skull symbol pulsing faintly. Ghostly fingerprints slowly appear across the glass from the inside. Slow, eerie push-in as mist drifts past.",
+      "sfx_prompt": "faint ghostly whisper, low supernatural drone",
+      "emphasis_words": ["dead"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 09.png",
+      "narration": "You call someone you lost years ago. They answer immediately. Their voice sounds exactly the same.",
+      "image_prompt": "Emotional supernatural scene of a person sitting alone in a dark bedroom at night, holding a glowing smartphone against their ear, tears in their eyes as a faint translucent apparition of a deceased loved one appears behind them, soft pale light surrounding the ghost, old photographs scattered across the room, bittersweet atmosphere slowly turning unsettling, cinematic supernatural horror, ultra-detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "The person listens, tears welling up, as the translucent apparition slowly solidifies behind them. Photographs on the floor flutter faintly. Slow push-in as the ghost's pale light grows.",
+      "sfx_prompt": "soft ghostly hum, faint emotional piano note",
+      "emphasis_words": ["immediately", "same"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 10.png",
+      "narration": "You spend an hour talking. Then they suddenly ask… \"Why are you still alive?\"",
+      "image_prompt": "Terrifying cinematic close-up of a ghostly deceased person staring directly at the protagonist with an expression of genuine confusion and fear, the ghost's face unnaturally pale, dark empty eyes, smartphone glowing between them, dozens of faint ghostly silhouettes appearing in the darkness behind the apparition, the protagonist frozen in terror, supernatural horror atmosphere, dramatic shadows, ultra-detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "The ghost's pale face slowly tilts, dark eyes widening with confusion and fear. Faint silhouettes shift in the darkness behind. Slow, unnerving push-in on the ghost's face.",
+      "sfx_prompt": "dissonant ghostly whisper chorus, low dread drone",
+      "emphasis_words": ["alive"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 11.png",
+      "narration": "Phone Four calls yourself. Not your past. Not your future. You… right now.",
+      "image_prompt": "Extreme close-up of the fourth smartphone on the mysterious black table, its screen displaying a live video feed of the exact same room from a slightly different angle, the screen showing the protagonist standing beside the table, eerie human eye symbol glowing faintly, subtle black distortion around the phone, impossible spatial perspective, dark supernatural horror atmosphere, cinematic lighting, highly detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Extreme close-up on the fourth phone, the live feed on screen subtly shifting angle on its own. The eye symbol glows and narrows slightly. Slow, unsettling push-in on the screen.",
+      "sfx_prompt": "low unnerving static, faint camera shutter click",
+      "emphasis_words": ["yourself", "now"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 7,
+      "source_image": "Choice/Four Phones/Image 12.png",
+      "narration": "You press call. Your own phone starts ringing in your pocket. You answer it.",
+      "image_prompt": "Cinematic horror scene of a terrified person standing alone in the dark room, holding one smartphone to their ear while another identical phone is visibly ringing inside their pocket, both screens showing the exact same live image of the room, impossible visual duplication, distorted shadows stretching across the walls, faint silhouette standing behind the protagonist, intense suspense, dark supernatural horror, realistic cinematic lighting, ultra-detailed Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "The phone in the pocket vibrates and glows faintly, ringing. The protagonist's hand trembles as they reach for it. Shadows on the wall stretch almost imperceptibly further. Slow, tense push-in.",
+      "sfx_prompt": "phone ringing, tense heartbeat thump",
+      "emphasis_words": ["ringing", "answer"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 10,
+      "source_image": "Choice/Four Phones/Image 13.png",
+      "narration": "There is silence on the other end. Then you hear your own voice whisper… \"Don't turn around.\" You slowly look at the phone screen. Someone is standing behind you.",
+      "image_prompt": "Extreme psychological horror scene, a terrified person frozen in a dark room while staring at their smartphone screen, the phone screen clearly reveals a tall faceless humanoid standing directly behind them, although the room behind the person appears empty when viewed normally, unnatural black silhouette, long distorted limbs, screen glowing cold white against the darkness, impossible reflection effect, intense dread, cinematic horror lighting, realistic detailed environment, terrifying but non-gory, Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "The protagonist freezes, eyes widening as they stare at the screen. The faceless silhouette on the screen slowly tilts its head, though the room behind them stays empty. Slow, dread-filled push-in on the screen reflection.",
+      "sfx_prompt": "dead silence, faint whispered voice, sudden cold static",
+      "emphasis_words": ["silence", "whisper", "behind"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 12,
+      "source_image": "Choice/Four Phones/Image 14.png",
+      "narration": "One phone lets you rewrite your past. One lets you speak to your future. One lets you talk to the dead. And one lets you see what's already behind you. Which phone would you choose?",
+      "image_prompt": "Final cinematic shot of the four smartphones arranged in a perfect row on the mysterious black table, Phone One glowing with golden rewind energy, Phone Two glowing with blue futuristic light, Phone Three surrounded by pale ghostly mist, Phone Four displaying a terrifying faceless silhouette on its screen, the room fading into complete darkness behind the table, subtle countdown timer reflected on the surface, ominous supernatural atmosphere, cinematic composition, ultra-detailed realistic Unreal Engine 5 render, vertical composition, --ar 9:16",
+      "motion_prompt": "Wide shot of the four glowing phones, each pulsing with its own distinct energy in turn — gold, blue, pale mist, faceless silhouette. Slow, ominous pull-back revealing all four at once.",
+      "sfx_prompt": "heavy ticking countdown, layered ominous drone",
+      "emphasis_words": ["choose"]
+    }
+  ]
+}
