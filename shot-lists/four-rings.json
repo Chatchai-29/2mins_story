@@ -1,0 +1,108 @@
+{
+  "video_id": "four-rings",
+  "title": "Four Rings",
+  "aspect_ratio": "9:16",
+  "total_duration_sec": 112,
+  "background_music": "",
+  "note": "คลิปวิดีโอเจนมาแล้วจากที่อื่น ไม่ผ่าน gen-video-evolink.mjs — วางไว้ที่ output/four-rings/clips/ ตรงๆ (ชื่อไฟล์ต้นฉบับชัดเจนไม่กำกวม: The hook / RING N.M / THE FINAL CHOICE)",
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_sec": 8,
+      "narration": "Four rings have appeared on this table. Each one gives you an impossible power. Superhuman strength. Telepathy. Luck. And immortality. But every power has a price. Which ring would you wear?",
+      "sfx_prompt": "low mystical drone, faint metallic ring chime",
+      "emphasis_words": ["strength", "Telepathy", "Luck", "immortality", "price"]
+    },
+    {
+      "scene": 2,
+      "duration_sec": 8,
+      "narration": "Ring One: Titan's Ring. It gives you the strength of a hundred men.",
+      "sfx_prompt": "deep golden energy hum, stone cracking faintly",
+      "emphasis_words": ["Titan's", "strength"]
+    },
+    {
+      "scene": 3,
+      "duration_sec": 8,
+      "narration": "You can lift cars with one hand. Break concrete with your fists. Nothing can stop you.",
+      "sfx_prompt": "metal groaning, concrete shattering, powerful impact thud",
+      "emphasis_words": ["Nothing"]
+    },
+    {
+      "scene": 4,
+      "duration_sec": 8,
+      "narration": "But the ring doesn't make your body stronger. It makes your muscles stronger. Your bones still break.",
+      "sfx_prompt": "bone crack, pained breathing, low dread drone",
+      "emphasis_words": ["muscles", "bones", "break"]
+    },
+    {
+      "scene": 5,
+      "duration_sec": 8,
+      "narration": "Ring Two: Mind's Eye. You can hear every thought around you.",
+      "sfx_prompt": "violet psychic hum, layered faint whispers",
+      "emphasis_words": ["Mind's Eye", "thought"]
+    },
+    {
+      "scene": 6,
+      "duration_sec": 8,
+      "narration": "No one can lie to you anymore. You know what people want. You know what they're afraid of.",
+      "sfx_prompt": "overlapping whisper chorus, subtle psychic chime",
+      "emphasis_words": ["lie", "afraid"]
+    },
+    {
+      "scene": 7,
+      "duration_sec": 8,
+      "narration": "At first, it's incredible. Until you realize… you can never turn it off.",
+      "sfx_prompt": "chaotic whisper overload, rising dissonant tone",
+      "emphasis_words": ["never", "off"]
+    },
+    {
+      "scene": 8,
+      "duration_sec": 8,
+      "narration": "Ring Three: Fortune's Ring. From the moment you wear it… everything goes your way.",
+      "sfx_prompt": "shimmering emerald chime, coins clinking softly",
+      "emphasis_words": ["Fortune's", "everything"]
+    },
+    {
+      "scene": 9,
+      "duration_sec": 8,
+      "narration": "You win every gamble. You survive every accident. Every impossible opportunity somehow finds you.",
+      "sfx_prompt": "slot machine chime, narrowly-missed whoosh, lucky ding",
+      "emphasis_words": ["gamble", "survive"]
+    },
+    {
+      "scene": 10,
+      "duration_sec": 8,
+      "narration": "Then you notice something. Whenever you get lucky… someone else gets unlucky.",
+      "sfx_prompt": "unsettling shift in tone, distant crash off-screen",
+      "emphasis_words": ["lucky", "unlucky"]
+    },
+    {
+      "scene": 11,
+      "duration_sec": 8,
+      "narration": "Ring Four: The Eternal Ring. The greatest gift of all. You will never die.",
+      "sfx_prompt": "deep ominous heartbeat pulse, cold black mist hiss",
+      "emphasis_words": ["Eternal", "never die"]
+    },
+    {
+      "scene": 12,
+      "duration_sec": 8,
+      "narration": "Decades pass. Your body never ages. A hundred years pass. You still look exactly the same.",
+      "sfx_prompt": "slow ticking clock, faint time-lapse whoosh",
+      "emphasis_words": ["never ages", "same"]
+    },
+    {
+      "scene": 13,
+      "duration_sec": 8,
+      "narration": "Then, after centuries… you finally discover the truth. The ring doesn't make you immortal. It makes the ring immortal. And you're the one keeping it alive.",
+      "sfx_prompt": "deep pulsing heartbeat drone, draining energy hum",
+      "emphasis_words": ["truth", "ring", "alive"]
+    },
+    {
+      "scene": 14,
+      "duration_sec": 8,
+      "narration": "Strength that can break anything. A mind that can read everyone. Luck that can change your destiny. Or immortality itself. But remember… every ring takes something from you. So tell me… Which ring would you wear?",
+      "sfx_prompt": "layered ominous drone, heavy ticking countdown",
+      "emphasis_words": ["break", "read", "destiny", "immortality", "takes"]
+    }
+  ]
+}
